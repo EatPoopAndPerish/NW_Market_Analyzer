@@ -1,0 +1,8375 @@
+{
+  "NewWorldGameWindowDimensions": null,
+  "RawPriceData": [
+    {
+      "ItemName": "Shadecloth",
+      "Price": "010",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "180",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "029",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "19",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "256",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "60",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "031",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "97",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "035",
+      "Tier": "II",
+      "GearScore": "8",
+      "Availability": "234",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "47",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "131",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "13",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "47",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "131",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "045",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "13",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "049",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "39",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "090",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "230",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Glintstrands",
+      "Price": "199",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "26",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "200",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "355",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Glintstrands",
+      "Price": "200",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "83",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "200",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "54",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "73",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "5   1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "249",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "8",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Shadecloth",
+      "Price": "250",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "906",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Glintstrands",
+      "Price": "250",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "35",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "250",
+      "Tier": "IV",
+      "GearScore": "5",
+      "Availability": "60",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "640",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "695",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "4",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Scalecord",
+      "Price": "695",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "9",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Phasefiber",
+      "Price": "1564",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Phasefiber",
+      "Price": "1564",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "12",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Phasefiber",
+      "Price": "1568",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "37",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Phasefiber",
+      "Price": "1568",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "21",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Phasefiber",
+      "Price": "1569",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "4",
+      "Location": "Weaverss Fen"
+    },
+    {
+      "ItemName": "Blisterweave",
+      "Price": "8400",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "6",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Blisterweave",
+      "Price": "8500",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "6",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Scalecloth",
+      "Price": "8999",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "15",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Scalecloth",
+      "Price": "9900",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "2",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Scalecloth",
+      "Price": "927",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "3",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "4 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "020",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1041",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "020",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "217",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "021",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "108",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "022",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "13",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "023",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "259",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "023",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "248",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "023",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "17",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "323",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "220",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "023",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "259",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "023",
+      "Tier": "IV",
+      "GearScore": "77",
+      "Availability": "248",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "023",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "17",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "323",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "220",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "025",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "237",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "025",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "2",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "025",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "16",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "026",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "740",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "025",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "02577",
+      "Tier": "",
+      "GearScore": "777",
+      "Availability": "16",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "026",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "740",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "026",
+      "Tier": "I",
+      "GearScore": "4",
+      "Availability": "62",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "027",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "1662",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "028",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "028",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "76",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "028",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "197",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone",
+      "Price": "028",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "798",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7777",
+      "Availability": "74",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "35",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "8",
+      "Availability": "107",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "70 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "1 1 4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "Iran Ore",
+      "Price": "030",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1049",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "0307",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "379",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "2274",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "3",
+      "Availability": "1155",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iran Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "645",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "714",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "731",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "391",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "551",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iran Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "645",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "77",
+      "Availability": "714",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "731",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "391",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "551",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "033",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4613",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "033",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "962",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "034",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "249",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Iran Ore",
+      "Price": "034",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "269",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "14 7",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4340",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "1 2",
+      "Availability": "112",
+      "Location": "ety gt"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "007",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "045",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "860",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "52",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "1120",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1985",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "050",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "2457",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "4",
+      "Availability": "1161",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Iran Ore",
+      "Price": "060",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "345",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "069",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "33",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "077",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "34",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0   3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "4",
+      "Availability": "14 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "40 1",
+      "Location": "e T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "ST"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "51  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "050",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1161",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "060",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "345",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "",
+      "Price": "069",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "33",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "077",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "34",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "077",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "79",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Iron Ore",
+      "Price": "077",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "609",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "079",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "296",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "079",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "246",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "079",
+      "Tier": "IV",
+      "GearScore": "2",
+      "Availability": "51",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Qrichalcum Ore",
+      "Price": "99",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "133",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "1",
+      "Availability": "2104",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "620",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "360",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "100",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "851",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "100",
+      "Tier": "IV",
+      "GearScore": "8",
+      "Availability": "491",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1756",
+      "Location": "Mountainhome"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1698",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "272",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1756",
+      "Location": "Mountainhome"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1698",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "272",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "394",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1456",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "109",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "17",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "109",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "102",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "80",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "241",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "110",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "30",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "411",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "ST"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4177",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41",
+      "Location": "et il"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "14",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "1187",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "143",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "123",
+      "Tier": "IV",
+      "GearScore": "3",
+      "Availability": "190",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "149",
+      "Tier": "V",
+      "GearScore": "4",
+      "Availability": "1203",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Starmetal Ore",
+      "Price": "160",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "913",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "200",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "1787",
+      "Location": "Valor Hold"
+    },
+    {
+      "ItemName": "Orichalcum Ore",
+      "Price": "200",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "118",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "284",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "8",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "285",
+      "Tier": "III",
+      "GearScore": "2",
+      "Availability": "21",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "285",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "21",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "285",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "40",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "288",
+      "Tier": "III",
+      "GearScore": "97",
+      "Availability": "90",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "293",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "35",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "293",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "294",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "5",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "295",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "3",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "300",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "44",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "550",
+      "Tier": "III",
+      "GearScore": "3",
+      "Availability": "3",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "wra B",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "44",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "590",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Ghunk",
+      "Price": "6007",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "44",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "50",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "92",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "16",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "658",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "28",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "669",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "24",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "700",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "29",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "749",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "40",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "669",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "24",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Azurite Ghunk",
+      "Price": "7047",
+      "Tier": "IV",
+      "GearScore": "7  77",
+      "Availability": "29",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Azurite Chunk",
+      "Price": "749",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "40",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "1000",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "3",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "1500",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "30",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Blessed Crucible",
+      "Price": "3000",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "3",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Blessed Crucible",
+      "Price": "5000",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "6",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Voidmetal",
+      "Price": "5500",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "17",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Blessed Crucible",
+      "Price": "7600",
+      "Tier": "IV",
+      "GearScore": "2",
+      "Availability": "10",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "73",
+      "Availability": "17",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I V",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "111",
+      "Location": ""
+    },
+    {
+      "ItemName": "Cinnabar",
+      "Price": "9800",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "3",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "98007",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "8",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Cinnabar",
+      "Price": "9800",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "7",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "10",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9900",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "50",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "10900",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "80",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "VV",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "1",
+      "Availability": "20",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "10",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "9900",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "50",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "10900",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "80",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "11000",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "6",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "11600",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "11700",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "10",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Tolvium",
+      "Price": "12900",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "6",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "4 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7777",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "St el"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "11 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "015",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "102",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "015",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "3672",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "015",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "3633",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "015",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1000",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "06",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "5301",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "017",
+      "Tier": "V",
+      "GearScore": "3",
+      "Availability": "1264",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "017",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "550",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "020",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "476",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "020",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "491",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "017",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "550",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "020",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "476",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "020",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "491",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "022",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "1335",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "023",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "102",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "023",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1436",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "260",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1969",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "745",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "40",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "2 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "12 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1 4 1",
+      "Location": "ok et il"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "057",
+      "Location": "SR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I  V",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "911",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I  V",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4 27",
+      "Location": ""
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "025",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "351",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "025",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "2059",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "025",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1275",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "025",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "2113",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "025",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10000",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "026",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "213",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "026",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "670",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "027",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "132",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "027",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "371",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "0267",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "670",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "05",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "132",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "027",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "371",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "028",
+      "Tier": "IV",
+      "GearScore": "3",
+      "Availability": "1664",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "029",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "570",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "030",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1164",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "030",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "7222",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "030",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "2536",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "030",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "2330",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11 4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0 0",
+      "Location": "S piatidaindonl"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "0 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "415",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "042",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "186",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "043",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "175",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "045",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "202",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "049",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "3411",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "049",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "547",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "050",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "656",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "6675",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "050",
+      "Tier": "IV",
+      "GearScore": "5",
+      "Availability": "3522",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "050",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "2092",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "13 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "4",
+      "Availability": "0 00",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 00",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "10 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "7 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0010",
+      "Location": ""
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "004",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "805",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "0047",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "105",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "004",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "352",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "004",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "574",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "005",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "317",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "005",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "468",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "005",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "383",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "008",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "008",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "849",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "005",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "468",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "005",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "383",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "008",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "008",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "849",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "009",
+      "Tier": "III",
+      "GearScore": "7 777",
+      "Availability": "722",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "009",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "1417",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "009",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "333",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "010",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "322",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "010",
+      "Tier": "III",
+      "GearScore": "2",
+      "Availability": "319",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IIV",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "010",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "14 0",
+      "Location": "R S e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "45",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "850",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "4",
+      "Availability": "111",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "015",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "97",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "015",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "344",
+      "Location": "Last Stand"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "015",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "375",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "018",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "2747",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "018",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "584",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "020",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "76",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "111",
+      "Tier": "I I I",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": "Critlace Ko"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "Raatieas Chora"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IVV",
+      "GearScore": "",
+      "Availability": "9 7",
+      "Location": "A e R e"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "VV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Winreward"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4714",
+      "Location": "M e R e"
+    },
+    {
+      "ItemName": "nld Ora",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "e L"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": "aath L o"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1 47",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "027",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "75",
+      "Availability": "15",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I V",
+      "GearScore": "7",
+      "Availability": "0 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "170",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4000",
+      "Location": ""
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1070",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "1",
+      "Availability": "611",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "105",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "500",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "851",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "804",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "030",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "783",
+      "Location": "Mountainhome"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "735",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Platinum Ore",
+      "Price": "030",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "619",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "411",
+      "Tier": "",
+      "GearScore": "777777",
+      "Availability": "742",
+      "Location": "Rrinbhasnnd"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "111177",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "11",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "454",
+      "Location": "Reakaator"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "741",
+      "Location": "Winrewrard"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "111",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "417",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "10",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "441",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IVV",
+      "GearScore": "7",
+      "Availability": "911",
+      "Location": ""
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "I I",
+      "GearScore": "7",
+      "Availability": "101",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "1",
+      "Availability": "75  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": "e T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "0",
+      "Availability": "0   0",
+      "Location": ""
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "2497",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "88",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "249",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "99",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Silver Ore",
+      "Price": "250",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "225",
+      "Location": "Eastourn"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "y",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1  0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "4",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5 2",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "050",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "1288",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "070",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "1042",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "149",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "68",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "150",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "150",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "150",
+      "Tier": "II",
+      "GearScore": "4",
+      "Availability": "21",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "200",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "600",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "0",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "95",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "250",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "200",
+      "Tier": "IIV",
+      "GearScore": "7",
+      "Availability": "600",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Stone Block",
+      "Price": "2497",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "95",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "250",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "250",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "490",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stane Brick",
+      "Price": "268",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "98",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "268",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "2912",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "269",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "79",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Black",
+      "Price": "275",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1021",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "290",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "31",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0 10",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11 01",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "6",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "8",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "111",
+      "Location": ""
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "301",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "521",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "3",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "3",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "325",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "284",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "326",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "191",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stane Brick",
+      "Price": "461",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "22",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "462",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "247",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "169",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "245",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "470",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "54",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "470",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "104",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "4697",
+      "Tier": "",
+      "GearScore": "777",
+      "Availability": "245",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "470",
+      "Tier": "III",
+      "GearScore": "7 7",
+      "Availability": "54",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "470",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "104",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "475",
+      "Tier": "III",
+      "GearScore": "4",
+      "Availability": "206",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "490",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "245",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "500",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "162",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Lodestone Brick",
+      "Price": "665",
+      "Tier": "IV",
+      "GearScore": "3",
+      "Availability": "108",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Lodestone Brick",
+      "Price": "668",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "88",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Lodestone Brick",
+      "Price": "669",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "296",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "722",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "411 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "1  0",
+      "Location": "st skt"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "00 3",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0  5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1114",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  1",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "Obsidian Voidstone",
+      "Price": "1700",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "113",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "",
+      "Price": "1800",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "68",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "2200",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "2500",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "16",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "2500",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "20",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "3000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "61",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "4000",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "4",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Obsidian Voidstone",
+      "Price": "5000",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "100",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Stone Brick",
+      "Price": "10000",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "68",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "131",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "14411",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "025",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "5408",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "028",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "64",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "029",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "760",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "76",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "032",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "2918",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "060",
+      "Tier": "II",
+      "GearScore": "3",
+      "Availability": "490",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "062",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1661",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "073",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "51",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "075",
+      "Tier": "II",
+      "GearScore": "2",
+      "Availability": "758",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "062",
+      "Tier": "IIV",
+      "GearScore": "7",
+      "Availability": "1661",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "073",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "51",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "075",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "758",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "079",
+      "Tier": "II",
+      "GearScore": "777",
+      "Availability": "171",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "080",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "856",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "080",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "528",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "17",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "483",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "19",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "184",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "248",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "59",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "00",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "2114",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "400",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "104",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "777",
+      "Availability": "4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "1717",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "13",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "0 174",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "270",
+      "Tier": "II I",
+      "GearScore": "3",
+      "Availability": "56",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "276",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "195",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "277",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "61",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "280",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "153",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "280",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "26",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "280",
+      "Tier": "III",
+      "GearScore": "4",
+      "Availability": "1",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "284",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "3",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "348",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "410",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "163",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lumber",
+      "Price": "284",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "3",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "348",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "410",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "163",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "425",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "75",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "599",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "81",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "621",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "625",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "122",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "625",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "46",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "688",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "il cace. ek’",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "34",
+      "Availability": "",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "23",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "716",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "95",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "740",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "191",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "800",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "900",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "409",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Wyrdwood Planks",
+      "Price": "900",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "203",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Ironwood Planks",
+      "Price": "1756",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "35",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "1849",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "27",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "1849",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "70",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Ironwood Planks",
+      "Price": "1850",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "17567",
+      "Tier": "",
+      "GearScore": "77",
+      "Availability": "35",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Ironwood Planks",
+      "Price": "1849",
+      "Tier": "V",
+      "GearScore": "5 77",
+      "Availability": "27",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "1849",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "70",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Ironwood Planks",
+      "Price": "1850",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Iranwood Planks",
+      "Price": "1899",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "201",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "1900",
+      "Tier": "V",
+      "GearScore": "4",
+      "Availability": "20",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Irenwood Planks",
+      "Price": "2000",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "50",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Glittering Ebony",
+      "Price": "27900",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "7",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Glittering Ebony",
+      "Price": "28000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "14",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "159",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "257",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "160",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "340",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "160",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "17",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "160",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "244",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "168",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "999",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "169",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "875",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "169",
+      "Tier": "II",
+      "GearScore": "5",
+      "Availability": "15",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "200",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1321",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "239",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "808",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "169",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "15",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "200",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "1321",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "239",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "808",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "240",
+      "Tier": "III",
+      "GearScore": "7777",
+      "Availability": "222",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "244",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "404",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "245",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "22",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "246",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "68",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "247",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "274",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "247",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "54",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I I",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "110",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "274",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "911",
+      "Availability": "1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "070",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4741",
+      "Location": ""
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "280",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "1621",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Iron Ingot",
+      "Price": "300",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "1831",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Steel Ingot",
+      "Price": "500",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "105",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Starmetal Ingot",
+      "Price": "795",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "128",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Starmetal Ingot",
+      "Price": "875",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Starmetal Ingot",
+      "Price": "997",
+      "Tier": "IV",
+      "GearScore": "3",
+      "Availability": "106",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Starmetal Ingot",
+      "Price": "9",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "496",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Starmetal Ingot",
+      "Price": "1000",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "230",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Orichalcum Ingot",
+      "Price": "1799",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "100",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "bl ki",
+      "Price": "",
+      "Tier": "IV V",
+      "GearScore": "7",
+      "Availability": "900",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "13377",
+      "Tier": "V V",
+      "GearScore": "77",
+      "Availability": "",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "",
+      "Tier": "VV",
+      "GearScore": "",
+      "Availability": "77",
+      "Location": "Critlace Ko"
+    },
+    {
+      "ItemName": "Orichalenm Inant",
+      "Price": "1010",
+      "Tier": "VV",
+      "GearScore": "9",
+      "Availability": "9",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "14710",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhaleim Inant",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "34717",
+      "Location": "Winreward"
+    },
+    {
+      "ItemName": "Orichaleim Inant",
+      "Price": "00",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "71",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Trnn Inant",
+      "Price": "1004",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "3 1",
+      "Location": "Waeavara Fan"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "47",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "117",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "411",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "01",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "31",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "39500",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "39600",
+      "Tier": "V",
+      "GearScore": "1",
+      "Availability": "10",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "39700",
+      "Tier": "V",
+      "GearScore": "2",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "39800",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "41499",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "30",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "42000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "42000",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "4",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "45000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "10",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Asmodeum",
+      "Price": "54900",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "6",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "049",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "105",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "050",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "506",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "080",
+      "Tier": "II",
+      "GearScore": "2",
+      "Availability": "194",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "090",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "576",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "092",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "1108",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "093",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "91",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "094",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "54",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "095",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "57",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "095",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "195",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "094",
+      "Tier": "IIVI",
+      "GearScore": "7",
+      "Availability": "54",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "095",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "57",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "095",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "195",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "097",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "74",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "097",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "25",
+      "Location": "Ebonscale Reach"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "098",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "161",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "100",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "490",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "100",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "159",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "100",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "435",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1131",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4  4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "150",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 0",
+      "Location": "s"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "440",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "03",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "171",
+      "Location": "Dt A"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "149",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "168",
+      "Location": "Cutiass Keys"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "1",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "247",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "150",
+      "Tier": "III",
+      "GearScore": "4",
+      "Availability": "225",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "150",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "8",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "150",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "889",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "173",
+      "Tier": "III",
+      "GearScore": "8",
+      "Availability": "300",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "175",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "964",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "190",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "524",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "200",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "77",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "150",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "8",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "150",
+      "Tier": "II",
+      "GearScore": "2",
+      "Availability": "889",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "173",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "300",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "175",
+      "Tier": "III",
+      "GearScore": "3",
+      "Availability": "964",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "190",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "524",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "200",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "77",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "209",
+      "Tier": "III",
+      "GearScore": "7",
+      "Availability": "53",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "296",
+      "Tier": "III",
+      "GearScore": "5",
+      "Availability": "616",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "299",
+      "Tier": "III",
+      "GearScore": "3",
+      "Availability": "187",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "200",
+      "Tier": "III",
+      "GearScore": "2",
+      "Availability": "77",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "209",
+      "Tier": "III",
+      "GearScore": "27",
+      "Availability": "53",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "29",
+      "Tier": "III",
+      "GearScore": "44",
+      "Availability": "616",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "299",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "187",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Linen",
+      "Price": "400",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "119",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "480",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1386",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "199",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "219",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "500",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "24",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "550",
+      "Tier": "IV",
+      "GearScore": "3",
+      "Availability": "270",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 7",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "071",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "7 10",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "047",
+      "Location": ""
+    },
+    {
+      "ItemName": "silk",
+      "Price": "583",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "54",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "585",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "409",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "598",
+      "Tier": "IV",
+      "GearScore": "4",
+      "Availability": "12",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "152",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "600",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "36",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "696",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "99",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "697",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "55",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "750",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "229",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "750",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "145",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "696",
+      "Tier": "IV",
+      "GearScore": "77",
+      "Availability": "99",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "697",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "55",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "750",
+      "Tier": "IV",
+      "GearScore": "5",
+      "Availability": "229",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "750",
+      "Tier": "IV",
+      "GearScore": "7 77",
+      "Availability": "145",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "785",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "176",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "silk",
+      "Price": "785",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "100",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Infused Silk",
+      "Price": "847",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "7",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Infused Silk",
+      "Price": "848",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "35",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Infused Silk",
+      "Price": "848",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "86",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1711",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "01  0",
+      "Location": "R e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "5 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "Infused Silk",
+      "Price": "1000",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "503",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "2500",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "14",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "18000",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "8",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "18000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "19",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "19800",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "20",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "19900",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "10",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "20000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "20100",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "27",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Phoenixweave",
+      "Price": "20300",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "16",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    }
+  ],
+  "InvalidPriceData": [
+    {
+      "ItemName": "",
+      "Price": "030",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "256",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "73",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "5   1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "4 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "323",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "220",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "323",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Lodestone",
+      "Price": "04",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "220",
+      "Location": "Restless Shore"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7777",
+      "Availability": "74",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "35",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "8",
+      "Availability": "107",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "5",
+      "Availability": "70 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "1 1 4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "0307",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "379",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "14 7",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4340",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "1 2",
+      "Availability": "112",
+      "Location": "ety gt"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "007",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0   3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "4",
+      "Availability": "14 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "40 1",
+      "Location": "e T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "ST"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "51  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "069",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "33",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "Qrichalcum Ore",
+      "Price": "99",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "133",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "80",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "241",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "411",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "ST"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4177",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41",
+      "Location": "et il"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "Fae Iron",
+      "Price": "14",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "20",
+      "Location": "Evertall"
+    },
+    {
+      "ItemName": "",
+      "Price": "285",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "40",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "wra B",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "44",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "73",
+      "Availability": "17",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I V",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "111",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "98007",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "8",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "9899",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "10",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "4 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7777",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "St el"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "11 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "Wirefiber",
+      "Price": "06",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "5301",
+      "Location": "Cutlass Keys"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "260",
+      "Location": "Monarch's Bluffs"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1969",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "Fibers",
+      "Price": "04",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "745",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "40",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "2 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "12 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1 4 1",
+      "Location": "ok et il"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "057",
+      "Location": "SR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I  V",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "911",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I  V",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4 27",
+      "Location": ""
+    },
+    {
+      "ItemName": "Silk Threads",
+      "Price": "05",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "132",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11 4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0 0",
+      "Location": "S piatidaindonl"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "0 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "415",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "13 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "4",
+      "Availability": "0 00",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0 00",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "10 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "7 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0010",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "0047",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "105",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IIV",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "010",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "14 0",
+      "Location": "R S e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 3",
+      "Location": ""
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "45",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "",
+      "Availability": "850",
+      "Location": "Brightwood"
+    },
+    {
+      "ItemName": "Gold Ore",
+      "Price": "04",
+      "Tier": "III",
+      "GearScore": "4",
+      "Availability": "111",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "111",
+      "Tier": "I I I",
+      "GearScore": "7",
+      "Availability": "2",
+      "Location": "Critlace Ko"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "Raatieas Chora"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IVV",
+      "GearScore": "",
+      "Availability": "9 7",
+      "Location": "A e R e"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "VV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Winreward"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4714",
+      "Location": "M e R e"
+    },
+    {
+      "ItemName": "nld Ora",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "e L"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": "aath L o"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1 47",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "027",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "75",
+      "Availability": "15",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I V",
+      "GearScore": "7",
+      "Availability": "0 7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "170",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4000",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "411",
+      "Tier": "",
+      "GearScore": "777777",
+      "Availability": "742",
+      "Location": "Rrinbhasnnd"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "111177",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "11",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "454",
+      "Location": "Reakaator"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "741",
+      "Location": "Winrewrard"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "111",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "417",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "10",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "441",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Plati",
+      "Price": "",
+      "Tier": "IVV",
+      "GearScore": "7",
+      "Availability": "911",
+      "Location": ""
+    },
+    {
+      "ItemName": "Cnld Ora",
+      "Price": "",
+      "Tier": "I I",
+      "GearScore": "7",
+      "Availability": "101",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "1",
+      "Availability": "75  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": "e T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "0",
+      "Availability": "0   0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "y",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1  0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "4",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5 2",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "0 10",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11 01",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "6",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "8",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "111",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "722",
+      "Tier": "",
+      "GearScore": "7777",
+      "Availability": "411 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "1  0",
+      "Location": "st skt"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "00 3",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0  5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1114",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1  1",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "1800",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "68",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "2200",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "10",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "2500",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "16",
+      "Location": "Everfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "2500",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "20",
+      "Location": "Reekwater"
+    },
+    {
+      "ItemName": "",
+      "Price": "3000",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "61",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "",
+      "Price": "4000",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "4",
+      "Location": "Weaver's Fen"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "5",
+      "Availability": "3",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "131",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "14411",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "5",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "17",
+      "Tier": "II",
+      "GearScore": "",
+      "Availability": "483",
+      "Location": "Windsward"
+    },
+    {
+      "ItemName": "Timber",
+      "Price": "19",
+      "Tier": "II",
+      "GearScore": "7",
+      "Availability": "184",
+      "Location": "First Light"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "00",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "2114",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "400",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "104",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "777",
+      "Availability": "4",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7 7",
+      "Availability": "1717",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "13",
+      "Location": "SO e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "04",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "2",
+      "Availability": "0 174",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "777",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "il cace. ek’",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "34",
+      "Availability": "",
+      "Location": "e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I   V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 5",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "23",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "",
+      "Availability": "",
+      "Location": "e TR"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "7",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "12",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "14",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I I",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "110",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "274",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "41 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "911",
+      "Availability": "1  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "070",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4741",
+      "Location": ""
+    },
+    {
+      "ItemName": "bl ki",
+      "Price": "",
+      "Tier": "IV V",
+      "GearScore": "7",
+      "Availability": "900",
+      "Location": "Windeward"
+    },
+    {
+      "ItemName": "",
+      "Price": "13377",
+      "Tier": "V V",
+      "GearScore": "77",
+      "Availability": "",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "",
+      "Tier": "VV",
+      "GearScore": "",
+      "Availability": "77",
+      "Location": "Critlace Ko"
+    },
+    {
+      "ItemName": "Orichalenm Inant",
+      "Price": "1010",
+      "Tier": "VV",
+      "GearScore": "9",
+      "Availability": "9",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "14710",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Orirhaleim Inant",
+      "Price": "100",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "34717",
+      "Location": "Winreward"
+    },
+    {
+      "ItemName": "Orichaleim Inant",
+      "Price": "00",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "71",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "Trnn Inant",
+      "Price": "1004",
+      "Tier": "I",
+      "GearScore": "7",
+      "Availability": "3 1",
+      "Location": "Waeavara Fan"
+    },
+    {
+      "ItemName": "Orirhalenim Inant",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "47",
+      "Location": "Euarfall"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11  1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "117",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "411",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "01",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "31",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "080",
+      "Tier": "II",
+      "GearScore": "2",
+      "Availability": "194",
+      "Location": "Evonscale Reach"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1131",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4  4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "150",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "4 0",
+      "Location": "s"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "440",
+      "Location": "Dttt A"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "03",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "171",
+      "Location": "Dt A"
+    },
+    {
+      "ItemName": "Sateen",
+      "Price": "29",
+      "Tier": "III",
+      "GearScore": "44",
+      "Availability": "616",
+      "Location": "Mourningdale"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 7",
+      "Location": "ST T T"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "4 4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "071",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "7 10",
+      "Location": "o"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "047",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1 1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "4",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1711",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "01  0",
+      "Location": "R e"
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "11",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "5 0",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "I",
+      "GearScore": "",
+      "Availability": "",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "V",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "IV",
+      "GearScore": "7",
+      "Availability": "07",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    },
+    {
+      "ItemName": "",
+      "Price": "",
+      "Tier": "",
+      "GearScore": "7",
+      "Availability": "1",
+      "Location": ""
+    }
+  ]
+}
