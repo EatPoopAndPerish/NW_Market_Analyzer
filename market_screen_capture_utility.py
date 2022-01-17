@@ -1,20 +1,12 @@
 import datetime
 import os
 import time
-
-import PIL.ImageOps
 import pynput
 import pytesseract as pytesseract
 import win32gui
 from PIL import ImageGrab
-from easygui import buttonbox
-from pynput import keyboard
-from pynput.keyboard import Key
-from pynput.mouse import Button, Controller
-from timeit import default_timer as timer
+from pynput.mouse import Controller
 import pyautogui
-import easygui
-from python_imagesearch.imagesearch import imagesearch, imagesearcharea
 
 starting_item = 'Cauliflower'
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -28,9 +20,9 @@ keyboard = pynput.keyboard.Controller()
 debug_screenshot_counter = 0
 DEBUG = False
 DEBUG_LIST = False
-DEBUG_CLICKS = True
+DEBUG_CLICKS = False
 DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
-DEBUG_LIMIT_PAGES = True
+DEBUG_LIMIT_PAGES = False
 if DEBUG:
     afk_time = 1
 else:
