@@ -398,6 +398,9 @@ if __name__ == '__main__':
     reset_afk_timer()
     time.sleep(2)
 
+    # Get resource prices per subcategory
+    click_on_resources()
+
     click_on_refined_resource()
     for page in get_pages():
         capture_screen_by_screen(page, 'refined_resources')
@@ -405,6 +408,9 @@ if __name__ == '__main__':
     # anti-AFK
     reset_afk_timer()
     time.sleep(2)
+
+    # Get resource prices per subcategory
+    click_on_resources()
 
     click_on_cooking_ingredients()
     for page in get_pages():
@@ -414,6 +420,9 @@ if __name__ == '__main__':
     reset_afk_timer()
     time.sleep(2)
 
+    # Get resource prices per subcategory
+    click_on_resources()
+
     click_on_craft_mods()
     for page in get_pages():
         capture_screen_by_screen(page, 'craft_mods')
@@ -421,6 +430,9 @@ if __name__ == '__main__':
     # anti-AFK
     reset_afk_timer()
     time.sleep(2)
+
+    # Get resource prices per subcategory
+    click_on_resources()
 
     click_on_components()
     for page in get_pages():
@@ -430,6 +442,9 @@ if __name__ == '__main__':
     reset_afk_timer()
     time.sleep(2)
 
+    # Get resource prices per subcategory
+    click_on_resources()
+
     click_on_potion_reagents()
     for page in get_pages():
         capture_screen_by_screen(page, 'potion_reagents')
@@ -437,6 +452,9 @@ if __name__ == '__main__':
     # anti-AFK
     reset_afk_timer()
     time.sleep(2)
+
+    # Get resource prices per subcategory
+    click_on_resources()
 
     click_on_dyes()
     for page in get_pages():
@@ -446,6 +464,9 @@ if __name__ == '__main__':
     reset_afk_timer()
     time.sleep(2)
 
+    # Get resource prices per subcategory
+    click_on_resources()
+
     click_on_azoth()
     for page in get_pages():
         capture_screen_by_screen(page, 'azoth')
@@ -453,6 +474,9 @@ if __name__ == '__main__':
     # anti-AFK
     reset_afk_timer()
     time.sleep(2)
+
+    # Get resource prices per subcategory
+    click_on_resources()
 
     click_on_arcana()
     for page in get_pages():
