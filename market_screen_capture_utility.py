@@ -1,12 +1,16 @@
 import datetime
 import os
 import time
+
+import PIL
+import numpy as np
 import pynput
 import pytesseract as pytesseract
 import win32gui
-from PIL import ImageGrab
-from pynput.mouse import Controller
+from PIL import ImageGrab, Image
+from pynput.mouse import Controller, Button
 import pyautogui
+from PIL import ImageEnhance
 
 starting_item = 'Cauliflower'
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -18,15 +22,20 @@ item_list_file = 'resources.txt'
 mouse = Controller()
 keyboard = pynput.keyboard.Controller()
 debug_screenshot_counter = 0
-DEBUG = False
-DEBUG_LIST = False
-DEBUG_CLICKS = False
-DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
+sleep_time_before_clicking_subcategory = 4
+sleep_time_after_clicking_resource_subcategory = 4
+# DEBUG = False
+# DEBUG_LIST = False
+DEBUG_CLICKS = True
+DEBUG_PAGE_SENSE = True
+DEBUG_NEXT_TP_PAGE = False
+DEBUG_TP_WINDOW_DOWN = False
 DEBUG_LIMIT_PAGES = False
-if DEBUG:
-    afk_time = 1
-else:
-    afk_time = 18
+# DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
+# if DEBUG:
+#     afk_time = 1
+# else:
+#     afk_time = 18
 
 
 def focus_on_new_world():
@@ -70,71 +79,66 @@ def debug_save_image(description):
         debug_screenshot_counter += 1
 
 
+def crop_total_page_number_from_clip(image):
+    yellows = [[255, 255, x] for x in range(190, 255)]
+    max_yellow_x_coord = 0
+    width, height = image.size
+    for yellow in yellows:
+        im = np.array(image)
+        y, x = np.where(np.all(im == yellow, axis=2))
+        y.sort()
+        x.sort()
+        try:
+            max_yellow_x_coord = max(max_yellow_x_coord, max(x))
+        except:
+            pass
+    res = image.crop((max_yellow_x_coord + 22, 0, width, height))
+    enhancer = ImageEnhance.Brightness(res)
+    new_res = enhancer.enhance(2)
+    if DEBUG_PAGE_SENSE:
+        new_res.show()
+    return new_res
+
+
 def get_pages():
+
+
     image = get_screen_shot()
     left = 1686
     top = 237
     right = 1790
     bottom = 258
 
-    cropped_image = image.crop((left, top, right, bottom))
-    cropped_image_3 = cropped_image.crop((71, 0, 103, 20))
-    cropped_image_2 = cropped_image.crop((79, 0, 103, 20))
-    # cropped_image_1 = cropped_image.crop((87, 0, 101, 22))
+    rough_cropped_image = image.crop((left, top, right, bottom))
 
-    text = ''
-    pages = -1
-    found_valid_number = False
-    try:
-        text = pytesseract.image_to_string(cropped_image_3)
-        pages = int(text)
-        found_valid_number = True
-        # cropped_image.show()
-        print(text)
-        print(pages)
-    except:
-        print('not a valide 3 digit page number')
-    else:
-        pages = pages
-        found_valid_number = True
+    cropped_image = crop_total_page_number_from_clip(rough_cropped_image)
 
-    if not found_valid_number:
+    custom_config = r'--oem 3 --psm 6 outputbase digits'
+    got_a_number = False
+    got_a_number_counter = 0
+    while not got_a_number:
         try:
-            custom_config = r'--oem 3 --psm 6 outputbase digits'
-            text = pytesseract.image_to_string(cropped_image_2, config=custom_config)
+            text = pytesseract.image_to_string(cropped_image, config=custom_config)
             pages = int(text)
-            # cropped_image.show()
-            print(text)
-            print(pages)
+            got_a_number = True
+
         except:
-            print('not a valid 2 digit page number')
-        else:
-            pages = pages
-            found_valid_number = True
+            got_a_number_counter += 1
+            print("Failed to read a number")
+        if got_a_number:
+            break
+        if got_a_number_counter == 10:
+            exit(1)
 
-    # if not found_valid_number:
-    #     try:
-    #         custom_config = r'--oem 3 --psm 6 outputbase digits'
-    #         pages = int(text)
-    #         found_valid_number = True
-    #         cropped_image.show()
-    #         print(text)
-    #         print(pages)
-    #     except:
-    #         print('not a valide 1 digit page number')
-    #     else:
-    #         pages = pages
-    #         found_valid_number = True
+    #TODO  sometimes pytesseract mistakes 1xx for 4xx, this is a temporary workaround
+    if 400 < pages < 499:
+        pages = pages - 300
+    print("Detected %i pages" % pages)
 
-    # having trouble with single digits, so let's cheat and assume all single digits are 9
-    if not found_valid_number:
-        pages = 9
-
-    page_count = pages
-    print("found page count: %i" % page_count)
     if DEBUG_LIMIT_PAGES:
         return range(2)
-    return range(page_count)
+
+    return range(pages)
 
 
 def prepare():
@@ -155,15 +159,28 @@ def capture_screen_by_screen(page, commodity_type):
     next_tp_page()
 
 
-def click_coords(x, y, message=""):
+def reset_mouse_position():
+    mouse.move(500, 500)
+
+
+def click_coords(x, y, message="", subcategory=False):
     focus_on_new_world()
-    pyautogui.click(x, y)
+    # If it's a subcategory, the UI scrolls and loads pretty and slow
+    if subcategory:
+        time.sleep(2)
+    mouse.position = (x, y)
+    time.sleep(0.5)
+    mouse.click(Button.left)
+    # pyautogui.click(x, y)
     time.sleep(0.2)
-    pyautogui.click(x, y)
-    time.sleep(0.2)
+    # If a top level category, it's safe and more consistent to click twice
+    if not subcategory:
+        pyautogui.click(x, y)
+        time.sleep(0.2)
     print(message)
     message = message.replace(' ', '_')
     debug_save_image(message)
+    reset_mouse_position()
     time.sleep(2)
 
 
@@ -241,14 +258,16 @@ def scroll_tp_window_down():
     time.sleep(2)
     pyautogui.click(3758, 1031)
     print("Scrolled TP windows down")
-    debug_save_image("scrolled_tp_window_down")
+    if DEBUG_TP_WINDOW_DOWN:
+        debug_save_image("scrolled_tp_window_down")
 
 
 def next_tp_page():
     pyautogui.click(3717, 252)
     time.sleep(0.5)
     print("next_tp_page")
-    debug_save_image("next_tp_page")
+    if DEBUG_NEXT_TP_PAGE:
+        debug_save_image("next_tp_page")
 
 
 def get_static_list_of_items():
@@ -275,39 +294,57 @@ def click_on_resources():
 
 
 def click_on_raw_resource():
-    click_coords(2165, 386, 'click_on_raw_resource')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 386, 'click_on_raw_resource', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_refined_resource():
-    click_coords(2165, 438, 'click_on_refined_resource')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 438, 'click_on_refined_resource', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_cooking_ingredients():
-    click_coords(2165, 488, 'click_on_cooking_ingredients')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 488, 'click_on_cooking_ingredients', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_craft_mods():
-    click_coords(2165, 539, 'click_on_craft_mods')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2155, 545, 'click_on_craft_mods', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_components():
-    click_coords(2165, 600, 'click_on_components')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 600, 'click_on_components', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_potion_reagents():
-    click_coords(2165, 643, 'click_on_potion_reagents')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 643, 'click_on_potion_reagents', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_dyes():
-    click_coords(2165, 698, 'click_on_dyes')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 698, 'click_on_dyes', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_azoth():
-    click_coords(2165, 749, 'click_on_azoth')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 749, 'click_on_azoth', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_arcana():
-    click_coords(2165, 802, 'click_on_arcana')
+    time.sleep(sleep_time_before_clicking_subcategory)
+    click_coords(2165, 802, 'click_on_arcana', subcategory=True)
+    time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 # def click_on_item_in_search_box(_item_name):
@@ -338,8 +375,7 @@ def click_on_arcana():
 
 
 if __name__ == '__main__':
-    # get_pages()
-    # exit()
+
     # Setting up the output scaffolding
     base_dir = 'output/'
     timestamp = time.time()
@@ -360,104 +396,116 @@ if __name__ == '__main__':
     prepare()
 
 
-    # Get consumable prices
-    click_on_consumables_category()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'consumables')
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
 
-    # Get ammo pages, get 30, that should be enough
-    click_on_ammo_category()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'ammo')
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
 
-    # Get furniture, get 100 pages
-    click_on_furniture_category()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'furniture')
+    # # Get resource prices per subcategory
+    # click_on_resources()
+    #
+    # click_on_raw_resource()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_raw_resource()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'raw_resources')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
+    # # Get resource prices per subcategory
+    # click_on_resources()
+    #
+    # click_on_refined_resource()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_refined_resource()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'refined_resources')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
+    #
+    # # Get resource prices per subcategory
+    # click_on_resources()
+    #
+    # click_on_cooking_ingredients()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_cooking_ingredients()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'cooking_ingredients')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
+    #
+    # # Get resource prices per subcategory
+    # click_on_resources()
+    #
+    # click_on_craft_mods()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_craft_mods()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'craft_mods')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
+    #
+    # # Get resource prices per subcategory
+    # click_on_resources()
+    #
+    # click_on_components()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_components()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'components')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
+    #
     # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_raw_resource()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'raw_resources')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
-    # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_refined_resource()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'refined_resources')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
-    # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_cooking_ingredients()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'cooking_ingredients')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
-    # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_craft_mods()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'craft_mods')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
-    # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_components()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'components')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
-
-    # Get resource prices per subcategory
-    click_on_resources()
-
-    click_on_potion_reagents()
-    for page in get_pages():
-        capture_screen_by_screen(page, 'potion_reagents')
-
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+    # click_on_resources()
+    #
+    # click_on_potion_reagents()
+    # category_pages = get_pages()
+    # while category_pages[-1] == 499:
+    #     click_on_resources()
+    #     click_on_potion_reagents()
+    #     category_pages = get_pages()
+    # for page in category_pages:
+    #     capture_screen_by_screen(page, 'potion_reagents')
+    #
+    # # anti-AFK
+    # reset_afk_timer()
+    # time.sleep(2)
 
     # Get resource prices per subcategory
     click_on_resources()
 
     click_on_dyes()
-    for page in get_pages():
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_resources()
+        click_on_dyes()
+        category_pages = get_pages()
+    for page in category_pages:
         capture_screen_by_screen(page, 'dyes')
 
     # anti-AFK
@@ -468,7 +516,12 @@ if __name__ == '__main__':
     click_on_resources()
 
     click_on_azoth()
-    for page in get_pages():
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_resources()
+        click_on_azoth()
+        category_pages = get_pages()
+    for page in category_pages:
         capture_screen_by_screen(page, 'azoth')
 
     # anti-AFK
@@ -479,12 +532,56 @@ if __name__ == '__main__':
     click_on_resources()
 
     click_on_arcana()
-    for page in get_pages():
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_resources()
+        click_on_arcana()
+        category_pages = get_pages()
+    for page in category_pages:
         capture_screen_by_screen(page, 'arcana')
 
+    # anti-AFK
+    reset_afk_timer()
+    time.sleep(2)
 
+    # Get consumable prices
+    click_on_consumables_category()
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_consumables_category()
+        category_pages = get_pages()
+    for page in category_pages:
+        capture_screen_by_screen(page, 'consumables')
 
+    # anti-AFK
+    reset_afk_timer()
+    time.sleep(2)
 
+    # Get ammo pages
+    click_on_ammo_category()
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_ammo_category()
+        category_pages = get_pages()
+    for page in category_pages:
+        capture_screen_by_screen(page, 'ammo')
+
+    # anti-AFK
+    reset_afk_timer()
+    time.sleep(2)
+
+    # Get furniture, get 100 pages
+    click_on_furniture_category()
+    category_pages = get_pages()
+    while category_pages[-1] == 499:
+        click_on_furniture_category()
+        category_pages = get_pages()
+    for page in category_pages:
+        capture_screen_by_screen(page, 'furniture')
+
+    # anti-AFK
+    reset_afk_timer()
+    time.sleep(2)
 
     # # The following loop will get straggling items that must be put in a list
     # now = datetime.datetime.now()
