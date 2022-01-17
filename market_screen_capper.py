@@ -9,8 +9,7 @@ from timeit import default_timer as timer
 import pyautogui
 import easygui
 
-scroll_down_delay = 1
-next_page_delay = 2
+item_list_file = 'item_list.txt'
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
 output_folder_name = 'market_screenshots_%s' % folder_timestamp
 mouse = Controller()
@@ -24,6 +23,13 @@ def ask_for_page_count():
     user_input = easygui.enterbox("How many pages in this category (max 250 for AFK timer)?")
     total_pages = int(user_input)
     return total_pages
+
+
+def get_static_list_of_items():
+    with open(item_list_file) as file:
+        lines = file.readlines()
+        lines = [line.rstrip() for line in lines]
+        return lines
 
 def ask_for_category():
     # message to be displayed

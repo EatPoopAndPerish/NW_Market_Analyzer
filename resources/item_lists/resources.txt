@@ -1,0 +1,954 @@
+Abaia Serpe
+Adamantine Dust
+Advanced Material Converter
+Aged Tannin
+Aged Wood
+Air Essence
+Air Mote
+Air Quintessence
+Air Wisp
+Albenaja
+Amber
+Amethyst
+Anchor
+Ancient Animal Bone
+Ancient Armor Plates
+Ancient Beaded Totem
+Ancient Bearing
+Ancient Bone Totem
+Ancient Encrusted Totem
+Ancient Femur
+Ancient Femur
+Ancient Gold Talisman
+Ancient Inscribed Totem
+Ancient Mandible
+Ancient Mandible
+Ancient Metallic Thread
+Ancient Platinum Talisman
+Ancient Rib
+Ancient Silver Talisman
+Ancient Skull
+Ancient Skull
+Ancient Texts
+Ancient Wooden Talisman
+Animal Claw
+Animal Eye
+Animal Fang
+Animal Horn
+Animal Viscera
+Apple
+Aquamarine
+Aquanaja
+Aquatic Snail
+Armorer's Journal
+Ash Stain
+Asmodeum
+Asmodeum Band
+Asmodeum Chain
+Asmodeum Hook
+Asmodeum Setting
+Azoth Water
+Azurite Chunk
+Barbvine
+Barkflesh
+Barley
+Basil
+Bear Blood
+Bear Claw
+Bear Fang
+Bear Paw
+Berry
+Black Pigment
+Blessed Crucible
+Blessed Scepter
+Blightmoth Dust
+Blightroot Flower
+Blightroot Leaf
+Blightroot Stem
+Blisterweave
+Bloodspore Bloom
+Blue Pigment
+Blue-blooded Barb
+Blue-Winged Serpe
+Blueberry
+Boar Blood
+Boar Eye
+Boar Hoof
+Boar Tusk
+Boar Tusk
+Bolt of Corrupted Cloth
+Bread
+Briar Buds
+Brightscale Hide
+Brilliant Amber
+Brilliant Amethyst
+Brilliant Animus
+Brilliant Aquamarine
+Brilliant Carnelian
+Brilliant Corrupted Insignia
+Brilliant Diamond
+Brilliant Emerald
+Brilliant Jasper
+Brilliant Malachite
+Brilliant Moonstone
+Brilliant Onyx
+Brilliant Opal
+Brilliant Pearl
+Brilliant Ruby
+Brilliant Sapphire
+Brilliant Topaz
+Broccoli
+Broken Hatchet
+Brown Pigment
+Bulrush Cob
+Bumbleblossom
+Butter
+Cabbage
+Callus Mangy Hide
+Carnelian
+Carrot
+Carved Dryad Bark
+Catfish Whiskers
+Cauliflower
+Charcoal
+Charged Quartz Crystal
+Cheese
+Chef's Secret Cookbook
+Chef's Secret Techniques
+Chunk of Adderstone
+Chunk of Baetylus
+Chunk of Batrachite
+Chunk of Cobalt
+Chunk of Consecrated Iron
+Chunk of Corrupted Matter
+Chunk of Crystal
+Chunk of Crystalized Azoth
+Chunk of Crystalized Ectoplasm
+Chunk of Enchanted Earth
+Chunk of Ironwood Resin
+Chunk of Niter
+Chunk of Sparkmetal
+Chunk of Thunderstone
+Chunk of Wyrdwood Resin
+Cinnabar
+Cinnamon
+Clam
+Coarse Leather
+Coarse Sandpaper
+Coconut
+Cod Eye
+Cold-forged Buckles
+Common Alkahest
+Common Material Converter
+Common Transmutation Catalyst
+Cooking Oil
+Corn
+Corrupted Crest
+Corrupted Rune
+Corrupted Sigil
+Corrupted Totem
+Covenant Barbarian Seal
+Covenant Brigand Seal
+Covenant Cleric Seal
+Covenant Occultist Seal
+Cranberry
+Crest of Fortitude
+Crossweave
+Crystalline Lodestone
+Crystalline Rivets
+Cut Amber
+Cut Amethyst
+Cut Aquamarine
+Cut Brilliant Amber
+Cut Brilliant Amethyst
+Cut Brilliant Aquamarine
+Cut Brilliant Carnelian
+Cut Brilliant Diamond
+Cut Brilliant Emerald
+Cut Brilliant Jasper
+Cut Brilliant Malachite
+Cut Brilliant Moonstone
+Cut Brilliant Onyx
+Cut Brilliant Opal
+Cut Brilliant Ruby
+Cut Brilliant Sapphire
+Cut Brilliant Topaz
+Cut Carnelian
+Cut Diamond
+Cut Emerald
+Cut Flawed Amber
+Cut Flawed Amethyst
+Cut Flawed Aquamarine
+Cut Flawed Carnelian
+Cut Flawed Diamond
+Cut Flawed Emerald
+Cut Flawed Jasper
+Cut Flawed Malachite
+Cut Flawed Moonstone
+Cut Flawed Onyx
+Cut Flawed Opal
+Cut Flawed Ruby
+Cut Flawed Sapphire
+Cut Flawed Topaz
+Cut Jasper
+Cut Malachite
+Cut Moonstone
+Cut Onyx
+Cut Opal
+Cut Pristine Amber
+Cut Pristine Amethyst
+Cut Pristine Aquamarine
+Cut Pristine Carnelian
+Cut Pristine Diamond
+Cut Pristine Emerald
+Cut Pristine Jasper
+Cut Pristine Malachite
+Cut Pristine Moonstone
+Cut Pristine Onyx
+Cut Pristine Opal
+Cut Pristine Ruby
+Cut Pristine Sapphire
+Cut Pristine Topaz
+Cut Ruby
+Cut Sapphire
+Cut Topaz
+Cyan Pigment
+Daemonaja
+Dead Dryad Vine
+Death Essence
+Death Mote
+Death Quintessence
+Death Wisp
+Delicate Fish Filet
+Diamond
+Dill
+Dragon Fish Jaw
+Dragonglory Flower
+Dragonglory Leaf
+Dragonglory Stem
+Draught of Ancient Essence
+Draught of Azalea Nectar
+Draught of Azoth Oil
+Draught of Blessed Water
+Draught of Corrupted Essence
+Draught of Corrupted Ichor
+Draught of Ectoplasm
+Draught of Ironwood Sap
+Draught of Sap
+Draught of Viscous Azoth
+Draught of Wolf Essence
+Dried Dryad Sap
+Drop of Ancient Essence
+Drop of Azalea Nectar
+Drop of Azoth Oil
+Drop of Blessed Water
+Drop of Corrupted Essence
+Drop of Corrupted Ichor
+Drop of Ectoplasm
+Drop of Sap
+Drop of Viscous Azoth
+Drop of Wyrdwood Sap
+Dryad Bark
+Dummy Frame
+Earth Essence
+Earth Mote
+Earth Quintessence
+Earth Totem
+Earth Wisp
+Earthshell Tail
+Earthspine Flower
+Earthspine Leaf
+Earthspine Stem
+Ebonwood
+Ectoplasmic Essence
+Egede Serpe
+Egg
+Ember Stone
+Emblem of Fortitude
+Embossed Wrapping
+Embroidered Padding
+Emerald
+Empowered Counterbalance
+Enchanted Bow String
+Engineer's Technique Manual
+Ephemeral Seal
+Etched Dryad Bark
+Etched Handguard
+Eternal Ice
+Fae Iron
+Faint Corrupted Insignia
+Fancy Shell
+Fanged Jaw
+Feathers
+Fibers
+Fine Corrupted Sigil
+Fine Sandpaper
+Fire Crystal Core
+Fire Essence
+Fire Mote
+Fire Quintessence
+Fire Wisp
+Firefox
+Firm Fish Filet
+Fish Fang
+Fish Filet
+Fish Guts
+Fish Headed Hammer
+Fish Oil
+Fish Roe
+Fish Sword
+Flawed Amber
+Flawed Amethyst
+Flawed Aquamarine
+Flawed Carnelian
+Flawed Diamond
+Flawed Emerald
+Flawed Jasper
+Flawed Malachite
+Flawed Moonstone
+Flawed Onyx
+Flawed Opal
+Flawed Pearl
+Flawed Ruby
+Flawed Sapphire
+Flawed Topaz
+Flint
+Flour
+Fluffy Stuffing
+Forgemaster's Notes
+Fragmented Musket
+Freezing Lodestone
+Frogfish Tail
+Fungal Slime
+Fungal Spores
+Fur
+Game Meat
+Garlic
+Gem Setting Pins
+Gillflower Gills
+Ginger
+Gleaming Lodestone
+Glimmering Twine
+Glintstrands
+Glittering Ebony
+Glowing Dryad Sap
+Glowing Gnufish
+Glowing Guardfish
+Glowing Mushroom Cap
+Glowing Sap
+Glowing Spore
+Glowing Swamp Moss
+Glowing Tallow
+Gold Band
+Gold Chain
+Gold Hook
+Gold Ingot
+Gold Lost Locket
+Gold Ore
+Gold Setting
+Grand Rune of Holding
+Grand Transmutation Catalyst
+Greater Rune of Holding
+Greater Transmutation Catalyst
+Green Pigment
+Green Wood
+Gunpowder
+Halibut Viscera
+Hardwood Prayer Beads
+Hardwood Tree Sap
+Honey
+Horn
+Horned-Tooth Mandje
+Huge Elk Hoof
+Hyssop
+Ice Crystal Core
+Infused Alkahest
+Infused Claw
+Infused Fang
+Infused Fur
+Infused Leather
+Infused Leather Beaded Straps
+Infused Leather Corrupted Fetish
+Infused Leather Scourge
+Infused Silk
+Infused Silk Arcane Embroidery
+Inscribed Shield Boss
+Intricate Firearm Lock
+Iron Battle Medal
+Iron Corrupted Casing
+Iron Guardsman's Insignia
+Iron Hide
+Iron Hook
+Iron Ingot
+Iron Ore
+Iron Pocketwatch
+Ironwood
+Ironwood Planks
+Ironwood Prayer Beads
+Ironwood Tree Sap
+Jagged Animal Claw
+Jagged Animal Fang
+Jagged Boar Tusk
+Jagged Horn
+Jasper
+Journal of Aeternum Flora
+Juicy Ham Hock
+Large Animal Bone
+Large Bass
+Large Bluefish
+Large Catfish
+Large Cod
+Large Dragon Fish
+Large Dryad Vine
+Large Electric Eel
+Large Elk Hoof
+Large Flounder
+Large Frogfish
+Large Hake
+Large Halibut
+Large Mackerel
+Large Madtom
+Large Paddlefish
+Large Perch
+Large Pike
+Large Piranha
+Large Quartz Crystal
+Large Salmon
+Large Sculpin
+Large Snapper
+Large Speartooth Shark
+Large Squid
+Large Stingray
+Large Sturgeon
+Large Sunfish
+Large Swordfish
+Large Trout
+Lava Barb
+Layered Leather
+Layered Leather Beaded Straps
+Layered Leather Corrupted Fetish
+Layered Leather Scourge
+Lemon
+Life Crystal Core
+Life Essence
+Life Mote
+Life Quintessence
+Life Wisp
+Lifebloom Flower
+Lifebloom Leaf
+Lifebloom Stem
+Lifemoth Eyes
+Lightning Beetle
+Linen
+Linen Arcane Embroidery
+Living Dryad Vine
+Loaded Dice
+Loamy Lodestone
+Lodestone
+Lodestone Brick
+Lumber
+Lumberjack's Token
+Magenta Pigment
+Mahogany Stain
+Major Rune of Holding
+Malachite
+Mandje Mandje
+Maple Stain
+Marauder Barbarian Seal
+Marauder Brigand Seal
+Marauder Cleric Seal
+Marauder Occultist Seal
+Masterwork Material Converter
+Medium Bass
+Medium Bluefish
+Medium Catfish
+Medium Cod
+Medium Dragon Fish
+Medium Electric Eel
+Medium Flounder
+Medium Frogfish
+Medium Hake
+Medium Halibut
+Medium Mackerel
+Medium Madtom
+Medium Paddlefish
+Medium Perch
+Medium Pike
+Medium Piranha
+Medium Salmon
+Medium Sculpin
+Medium Snapper
+Medium Speartooth Shark
+Medium Squid
+Medium Stingray
+Medium Sturgeon
+Medium Sunfish
+Medium Swordfish
+Medium Trout
+Melon
+Mercurial Token
+Milk
+Minor Rune of Holding
+Mint
+Molten Lodestone
+Molten Rune
+Moonstone
+Mushroom
+Mushroom Fins
+Notes on Aeternum Fauna
+Nut
+Nutmeg
+Oak Stain
+Oar
+Obsidian Flux
+Obsidian Sandpaper
+Obsidian Voidstone
+Onyx
+Opal
+Orange
+Orange Pigment
+Oregano
+Orichalcum Arcanist's Charm
+Orichalcum Armorer's Charm
+Orichalcum Battle Medal
+Orichalcum Botanist's Charm
+Orichalcum Bow Charm
+Orichalcum Chain
+Orichalcum Chef's Charm
+Orichalcum Corrupted Casing
+Orichalcum Engineer's Charm
+Orichalcum Fire Staff Charm
+Orichalcum Guardsman's Insignia
+Orichalcum Hatchet Charm
+Orichalcum Hook
+Orichalcum Hook
+Orichalcum Ice Gauntlet Charm
+Orichalcum Ingot
+Orichalcum Jewelcrafter's Charm
+Orichalcum Life Staff Charm
+Orichalcum Lumberjack's Charm
+Orichalcum Miner's Charm
+Orichalcum Musket Charm
+Orichalcum Ore
+Orichalcum Pocketwatch
+Orichalcum Rapier Charm
+Orichalcum Setting
+Orichalcum Shield Charm
+Orichalcum Skinner's Charm
+Orichalcum Spear Charm
+Orichalcum Sword Charm
+Orichalcum Traveler's Charm
+Orichalcum War Hammer Charm
+Orichalcum Weaponsmith's Charm
+Oyster
+Paddlefish Gills
+Paprika
+Parsley
+Pasta
+Pastry Crust
+Patch of Corrupted Cloth
+Pearl
+Peppercorn
+Perfect Corrupted Sigil
+Petalcap
+Petrified Fire
+Petrified Wood
+Phasefiber
+Philosopher's Stone
+Phoenixweave
+Piranha Tooth
+Platecap Flesh
+Platinum Band
+Platinum Hook
+Platinum Ingot
+Platinum Lost Locket
+Platinum Ore
+Platinum Setting
+Poison Sac
+Pork
+Pork Belly
+Potato
+Potent Solvent
+Poultry
+Poultry Breast
+Poultry Thigh
+Powerful Alkahest
+Powerful Dryad Sap
+Powerful Quartz Crystal
+Precision Armoring Tools
+Precision Engineering Tools
+Prime Red Meat
+Pristine Amber
+Pristine Animal Fang
+Pristine Aquamarine
+Pristine Bear Claw
+Pristine Bear Pelt
+Pristine Boar Tusk
+Pristine Carnelian
+Pristine Diamond
+Pristine Emerald
+Pristine Horn
+Pristine Jasper
+Pristine Malachite
+Pristine Moonstone
+Pristine Onyx
+Pristine Opal
+Pristine Pearl
+Pristine Ruby
+Pristine Sapphire
+Pristine Topaz
+Pristine Whetstone
+Pristine Wolf Claw
+Pure Resin
+Pure Solvent
+Purple Pigment
+Putrid Lodestone
+Quartermaster's Notes
+Quillbark
+Ragehide
+Rawhide
+Ray-Finned Barb
+Red Meat
+Red Pigment
+Reeds
+Reinforced Orichalcum Bow Charm
+Reinforced Orichalcum Fire Staff Charm
+Reinforced Orichalcum Spear Charm
+Reinforced Starmetal Bow Charm
+Reinforced Starmetal Fire Staff Charm
+Reinforced Starmetal Hatchet Charm
+Reinforced Starmetal Life Staff Charm
+Reinforced Starmetal War Hammer Charm
+Reinforced Steel Bow Charm
+Reinforced Steel Fire Staff Charm
+Reinforced Steel Hatchet Charm
+Reinforced Steel Ice Gauntlet Charm
+Reinforced Steel Life Staff Charm
+Reinforced Steel Musket Charm
+Reinforced Steel Rapier Charm
+Reinforced Steel Spear Charm
+Reinforced Steel War Hammer Charm
+Resin Shavings
+Rested Tannin
+Rice
+Rich Bear Flank
+Rivercress Flower
+Rivercress Leaf
+Rivercress Stem
+Riveted Orichalcum Mail
+Riveted Starmetal Mail
+Riveted Steel Mail
+Rosemary
+Rough Leather Beaded Straps
+Rough Leather Corrupted Fetish
+Rough Leather Scourge
+Ruby
+Rugged Leather
+Rugged Leather Beaded Straps
+Rugged Leather Corrupted Fetish
+Rugged Leather Scourge
+Runestone
+Runic Dryad Bark
+Runic Leather
+Runic Thread
+Saffron
+Sage
+Salamander Slime
+Salt
+Saltpeter
+Sand Flux
+Sapphire
+Sateen
+Sateen Arcane Embroidery
+Sausage
+Scalecloth
+Scalecord
+Scaling Powder
+Scaly Hide
+Scarhide
+Schematic: Contingency Plan
+Schematic: Eruption
+Schematic: Eternal Dusk
+Schematic: Frost Fairy's Gift
+Schematic: Grasping Light
+Schematic: Headsman
+Schematic: Hidden Truths
+Schematic: Inquisition
+Schematic: Maker's Mark
+Schematic: Malefaction
+Schematic: Needler
+Schematic: Serendipity
+Schematic: Shatterslash
+Schematic: Stonerend
+Schematic: Tactician's Rapier
+Schematic: Thundersnow
+Schematic: Veilpiercer
+Schematic: Violent Dissent
+Schematic: Voidforged Harbinger
+Schematic: Waning Crescent
+Schematic: Watchful Eye
+Schematic: Windsinger
+Sculpin Scales
+Seasoning Blend
+Seaweed
+Serpentine Handguard
+Shadecloth
+Shadowfur
+Shard of Adderstone
+Shard of Baetylus
+Shard of Batrachite
+Shard of Cobalt
+Shard of Consecrated Iron
+Shard of Corrupted Matter
+Shard of Crystal
+Shard of Crystalized Azoth
+Shard of Crystalized Ectoplasm
+Shard of Enchanted Earth
+Shard of Ironwood Resin
+Shard of Niter
+Shard of Sparkmetal
+Shard of Thunderstone
+Shard of Wyrdwood Resin
+Shattered Sword
+Shellbed Cap
+Shelldust Flux
+Shifthide
+Shimmering Animus
+Shining Animus
+Shockbulb Flower
+Shockbulb Leaf
+Shockbulb Stem
+Shocking Lodestone
+Silk
+Silk Arcane Embroidery
+Silk Threads
+Silkweave
+Silver Band
+Silver Chain
+Silver Hook
+Silver Ingot
+Silver Lost Locket
+Silver Ore
+Silver Setting
+Sliver of Adamant
+Sliver of Adderstone
+Sliver of Baetylus
+Sliver of Batrachite
+Sliver of Cobalt
+Sliver of Consecrated Iron
+Sliver of Corrupted Matter
+Sliver of Crystal
+Sliver of Crystalized Azoth
+Sliver of Crystalized Ectoplasm
+Sliver of Enchanted Earth
+Sliver of Ironwood Resin
+Sliver of Niter
+Sliver of Sparkmetal
+Sliver of Thunderstone
+Sliver of Wyrdwood Resin
+Small Animal Bone
+Small Bass
+Small Bluefish
+Small Catfish
+Small Cod
+Small Dragon Fish
+Small Electric Eel
+Small Elk Hoof
+Small Flounder
+Small Frogfish
+Small Hake
+Small Halibut
+Small Mackerel
+Small Madtom
+Small Paddlefish
+Small Perch
+Small Pike
+Small Piranha
+Small Quartz Crystal
+Small Salmon
+Small Sculpin
+Small Snapper
+Small Speartooth Shark
+Small Squid
+Small Stingray
+Small Sturgeon
+Small Sunfish
+Small Swordfish
+Small Trout
+Smolderhide
+Snail Slime
+Softwood Prayer Beads
+Softwood Tree Sap
+Soggy Boot
+Soul Essence
+Soul Mote
+Soul Quintessence
+Soul Wisp
+Soulsprout Flower
+Soulsprout Leaf
+Soulsprout Stem
+Soulwyrm Tongue
+Sparkling Dust
+Spinecap
+Spinefish Fins
+Splintered Bow
+Sporebloom Fruit
+Squash
+Squid Ink
+Squirming Vines
+Squirming Vines
+Stacked Deck
+Starfish
+Starmetal Arcanist's Charm
+Starmetal Armorer's Charm
+Starmetal Battle Medal
+Starmetal Botanist's Charm
+Starmetal Bow Charm
+Starmetal Chef's Charm
+Starmetal Corrupted Casing
+Starmetal Engineer's Charm
+Starmetal Fire Staff Charm
+Starmetal Hatchet Charm
+Starmetal Hook
+Starmetal Ice Gauntlet Charm
+Starmetal Ingot
+Starmetal Jewelcrafter's Charm
+Starmetal Life Staff Charm
+Starmetal Lumberjack's Charm
+Starmetal Miner's Charm
+Starmetal Musket Charm
+Starmetal Ore
+Starmetal Pocketwatch
+Starmetal Rapier Charm
+Starmetal Shield Charm
+Starmetal Skinner's Charm
+Starmetal Spear Charm
+Starmetal Sword Charm
+Starmetal Traveler's Charm
+Starmetal War Hammer Charm
+Starmetal Weaponsmith's Charm
+Steel Arcanist's Charm
+Steel Armorer's Charm
+Steel Battle Medal
+Steel Botanist's Charm
+Steel Bow Charm
+Steel Chef's Charm
+Steel Corrupted Casing
+Steel Engineer's Charm
+Steel Fire Staff Charm
+Steel Guardsman's Insignia
+Steel Hatchet Charm
+Steel Hook
+Steel Ice Gauntlet Charm
+Steel Ingot
+Steel Jewelcrafter's Charm
+Steel Life Staff Charm
+Steel Lumberjack's Charm
+Steel Miner's Charm
+Steel Musket Charm
+Steel Pocketwatch
+Steel Rapier Charm
+Steel Shield Charm
+Steel Skinner's Charm
+Steel Spear Charm
+Steel Sword Charm
+Steel Traveler's Charm
+Steel War Hammer Charm
+Steel Weaponsmith's Charm
+Stone
+Stone Block
+Stone Brick
+Strawberry
+String Bean
+Strong Alkahest
+Strong Animal Bone
+Sugar
+Sumptuous Rabbit
+Suncreeper Tendril
+Surveyor's Tools
+Syndicate Barbarian Seal
+Syndicate Brigand Seal
+Syndicate Cleric Seal
+Syndicate Occultist Seal
+Tadpole
+Tanglewisp
+Tannin
+Tarragon
+Tattered Mangy Hide
+Tender Fish Filet
+Tender Wolf Loin
+Tendrilspine Fibers
+Thick Fur
+Thick Hide
+Thorny Vine
+Thrashing Vines
+Thread of Corrupted Cloth
+Thyme
+Timber
+Toadpot
+Toadstool Fringe
+Tolvium
+Tomato
+Topaz
+Tracker's Seal
+Tubecap
+Turquoise Pigment
+Twistcap Spiral
+Vacant Corrupted Insignia
+Varanus Mandje
+Venison
+Venison Tenderloin
+Venom Sac
+Verbena Flower
+Verbena Leaf
+Verbena Stem
+Vial of Ancient Essence
+Vial of Azalea Nectar
+Vial of Azoth Oil
+Vial of Blessed Water
+Vial of Corrupted Essence
+Vial of Corrupted Ichor
+Vial of Dryad Sap
+Vial of Ectoplasm
+Vial of Powerful Energy
+Vial of Pulsing Energy
+Vial of Sap
+Vial of Suspended Azoth
+Vial of Swirling Energy
+Vial of Viscous Azoth
+Vial of Wispy Energy
+Vial of Wyrdwood Sap
+Void Essence
+Void Ore
+Void Pitcher
+Voidbent Ingot
+Voidmetal
+Water
+Water Essence
+Water Mote
+Water Quintessence
+Water Wisp
+Weak Alkahest
+Weak Solvent
+Wheat
+Whetstone
+Whisperwood
+White Pigment
+Wildwood
+Wirefiber
+Wireweave
+Withered Bough
+Wolf Blood
+Wolf Claw
+Wolf Fang
+Wolf Paw
+Wooden Lost Locket
+Worn Mangy Hide
+Worn Whetstone
+Wyrdwood
+Wyrdwood Planks
+Wyrdwood Prayer Beads
+Wyrdwood Tree Sap
+Yeast
+Yellow Pigment
+Young Dryad Vine

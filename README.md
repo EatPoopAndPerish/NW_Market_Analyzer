@@ -18,3 +18,6 @@ High level steps are:
 
 
 
+## Requirements
+Must install pytesseact for OCR - don't forget to add it to your path
+https://digi.bib.uni-mannheim.de/tesseract/?C=M;O=D
