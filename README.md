@@ -1,4 +1,4 @@
-#How to use
+# How to use
 High level steps are:
 1. Go stand in front of a TP
 2. Run market_screen_capture_utility.py
