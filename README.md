@@ -2,7 +2,7 @@
 High level steps are:
 1. Go stand in front of a TP
 2. Run market_screen_capture_utility.py
-   1. You will crouch, open the TP and start clicking around. 
+   1. You will automatically crouch, open the TP and start clicking around. 
    2. Screenshots will be taken and stored in ./output/market_screenshotsXXX. 
    3. Every so often, you will disengage from the TP, walk back a bit, walk forward a bit and reengage with the TP. This is the anti-afk functionality. 
 4. Run those screenshots through the Parser in a big batch
