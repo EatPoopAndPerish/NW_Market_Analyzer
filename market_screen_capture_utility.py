@@ -14,7 +14,6 @@ from pynput.mouse import Controller, Button
 import pyautogui
 from PIL import ImageEnhance
 
-
 # Scaffolding Variables
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
 output_folder_name = 'market_screenshots_%s' % folder_timestamp
@@ -176,8 +175,9 @@ def prepare():
     debug_save_image("prepared")
 
 
-def screen_cap_scroll_down_screen_cap(page, commodity_type):
+def screen_cap_scroll_down_screen_cap(page, commodity_type, total_pages=0, current_page=0):
     focus_on_new_world()
+    print("page %i / %i" % (current_page + 1, total_pages))
     img = get_screen_shot()
     img.save("%s/%s%i.png" % (new_dir, commodity_type, page))
     scroll_tp_window_down()
@@ -187,7 +187,7 @@ def screen_cap_scroll_down_screen_cap(page, commodity_type):
 
 
 def reset_mouse_position():
-    mouse.move(500, 500)
+    mouse.move(1000, 1000)
 
 
 def click_coords(x, y, message="", subcategory=False):
@@ -281,9 +281,9 @@ def reset_afk_timer():
 
 
 def scroll_tp_window_down():
-    pyautogui.click(3758, 1031)
+    pyautogui.click(3760, 1031)
     time.sleep(2)
-    pyautogui.click(3758, 1031)
+    pyautogui.click(3760, 1031)
     print("Scrolled TP windows down")
     if DEBUG_TP_WINDOW_DOWN:
         debug_save_image("scrolled_tp_window_down")
@@ -434,7 +434,7 @@ if __name__ == '__main__':
                 click_on_raw_resource()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'raw_resources')
+                screen_cap_scroll_down_screen_cap(page, 'raw_resources', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -453,7 +453,7 @@ if __name__ == '__main__':
                 click_on_refined_resource()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'refined_resources')
+                screen_cap_scroll_down_screen_cap(page, 'refined_resources', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -472,7 +472,7 @@ if __name__ == '__main__':
                 click_on_cooking_ingredients()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'cooking_ingredients')
+                screen_cap_scroll_down_screen_cap(page, 'cooking_ingredients', total_pages=category_pages[-1], page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -491,7 +491,7 @@ if __name__ == '__main__':
                 click_on_craft_mods()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'craft_mods')
+                screen_cap_scroll_down_screen_cap(page, 'craft_mods', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -510,7 +510,7 @@ if __name__ == '__main__':
                 click_on_components()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'components')
+                screen_cap_scroll_down_screen_cap(page, 'components', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -529,7 +529,7 @@ if __name__ == '__main__':
                 click_on_potion_reagents()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'potion_reagents')
+                screen_cap_scroll_down_screen_cap(page, 'potion_reagents', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -548,7 +548,7 @@ if __name__ == '__main__':
                 click_on_dyes()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'dyes')
+                screen_cap_scroll_down_screen_cap(page, 'dyes', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -567,7 +567,7 @@ if __name__ == '__main__':
                 click_on_azoth()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'azoth')
+                screen_cap_scroll_down_screen_cap(page, 'azoth', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -586,7 +586,7 @@ if __name__ == '__main__':
                 click_on_arcana()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'arcana')
+                screen_cap_scroll_down_screen_cap(page, 'arcana', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
@@ -602,7 +602,7 @@ if __name__ == '__main__':
             click_on_consumables_category()
             category_pages = get_pages()
         for page in category_pages:
-            screen_cap_scroll_down_screen_cap(page, 'consumables')
+            screen_cap_scroll_down_screen_cap(page, 'consumables', total_pages=category_pages[-1], current_page=page)
 
         # anti-AFK
         reset_afk_timer()
@@ -618,7 +618,7 @@ if __name__ == '__main__':
             click_on_ammo_category()
             category_pages = get_pages()
         for page in category_pages:
-            screen_cap_scroll_down_screen_cap(page, 'ammo')
+            screen_cap_scroll_down_screen_cap(page, 'ammo', total_pages=category_pages[-1], current_page=page)
 
         # anti-AFK
         reset_afk_timer()
@@ -634,7 +634,7 @@ if __name__ == '__main__':
             click_on_furniture_category()
             category_pages = get_pages()
         for page in category_pages:
-            screen_cap_scroll_down_screen_cap(page, 'furniture')
+            screen_cap_scroll_down_screen_cap(page, 'furniture', total_pages=category_pages[-1], current_page=page)
 
         # anti-AFK
         reset_afk_timer()
