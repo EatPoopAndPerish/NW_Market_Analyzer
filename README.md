@@ -14,6 +14,12 @@ High level steps are:
    2. You will see a new file called marketXXX.csv
 6. Copy and paste the output CSV output (file) of `market_json_to_csv.py` into the DATA tab of the OHG Market Tracker spreadsheet
 
+# Integration with NW profession cost calculator
+It seems like you can go to this page:
+https://gaming.tools/newworld/price-customization?profession=arcana
+
+Scroll to the bottom, and you will see that you can importa JSON file. The JSON output from the parser seems to be what this is expecting. Unfortunately you'll get some whacky results in that JSON, so do this at your own risk. I will create another utility that will do a sanity check on the JSON and strip out whacky results for better integration with this page.
+
 
 
 ## Requirements
