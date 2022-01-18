@@ -25,8 +25,8 @@ sleep_time_after_clicking_resource_subcategory = 4
 
 # Skip variables
 SKIP_ALL_RESOURCES = False
-SKIP_RAW_RESOURCES = False
-SKIP_REFINED_RESOURCES = False
+SKIP_RAW_RESOURCES = True
+SKIP_REFINED_RESOURCES = True
 SKIP_COOKING_INGREDIENTS = False
 SKIP_CRAFT_MODS = False
 SKIP_COMPONENTS = False
@@ -472,7 +472,7 @@ if __name__ == '__main__':
                 click_on_cooking_ingredients()
                 category_pages = get_pages()
             for page in category_pages:
-                screen_cap_scroll_down_screen_cap(page, 'cooking_ingredients', total_pages=category_pages[-1], page=page)
+                screen_cap_scroll_down_screen_cap(page, 'cooking_ingredients', total_pages=category_pages[-1], current_page=page)
 
             # anti-AFK
             reset_afk_timer()
