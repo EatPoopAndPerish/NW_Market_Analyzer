@@ -1,6 +1,9 @@
 import datetime
 import os
 import time
+
+import cv2
+import numpy
 import numpy as np
 import pynput
 import pytesseract as pytesseract
@@ -22,16 +25,16 @@ sleep_time_before_clicking_subcategory = 4
 sleep_time_after_clicking_resource_subcategory = 4
 
 # Skip variables
-SKIP_ALL_RESOURCES = True
-SKIP_RAW_RESOURCES = True
-SKIP_REFINED_RESOURCES = True
-SKIP_COOKING_INGREDIENTS = True
-SKIP_CRAFT_MODS = True
-SKIP_COMPONENTS = True
-SKIP_POTION_REAGENTS = True
-SKIP_DYES = True
-SKIP_AZOTH = True
-SKIP_ARCANA = True
+SKIP_ALL_RESOURCES = False
+SKIP_RAW_RESOURCES = False
+SKIP_REFINED_RESOURCES = False
+SKIP_COOKING_INGREDIENTS = False
+SKIP_CRAFT_MODS = False
+SKIP_COMPONENTS = False
+SKIP_POTION_REAGENTS = False
+SKIP_DYES = False
+SKIP_AZOTH = False
+SKIP_ARCANA = False
 
 SKIP_CONSUMABLES = False
 SKIP_AMMO = False
@@ -111,11 +114,18 @@ def crop_total_page_number_from_clip(image):
         except:
             pass
     res = image.crop((max_yellow_x_coord + 22, 0, width, height))
-    enhancer = ImageEnhance.Brightness(res)
-    new_res = enhancer.enhance(2)
+
+    ### method 1 disabled, return candidate 1 if you want  to switch back
+    # enhancer = ImageEnhance.Brightness(res)
+    # candidate1 = enhancer.enhance(2)
+
+    opencvImage = cv2.cvtColor(numpy.array(res), cv2.COLOR_RGB2BGR)
+    temp_image = cv2.convertScaleAbs(opencvImage, alpha=3, beta=0)
+    candidate2 = Image.fromarray(temp_image)
     if DEBUG_PAGE_SENSE:
-        new_res.show()
-    return new_res
+        # candidate1.show()
+        candidate2.show()
+    return candidate2
 
 
 def get_pages():
