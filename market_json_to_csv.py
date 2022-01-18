@@ -2,7 +2,7 @@ import time
 import json
 from scipy import stats
 
-item_list_file = 'item_list.txt'
+item_list_file = './resources/item_lists/item_list.txt'
 # Setting a super high price for items not found. This is a workaround to avoid having to recreate the Tradesman's Bible spreadsheet.
 default_price_if_not_found = 100000
 

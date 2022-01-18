@@ -1,41 +1,59 @@
 import datetime
 import os
 import time
-
-import PIL
 import numpy as np
 import pynput
 import pytesseract as pytesseract
 import win32gui
 from PIL import ImageGrab, Image
+from pynput.keyboard import Key
 from pynput.mouse import Controller, Button
 import pyautogui
 from PIL import ImageEnhance
 
-starting_item = 'Cauliflower'
+
+# Scaffolding Variables
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
 output_folder_name = 'market_screenshots_%s' % folder_timestamp
-debug_folder_name = 'debug_screenshots_%s' % folder_timestamp
-debug_clicks_folder_name = 'debug_clicks_%s' % folder_timestamp
-# item_list_file = 'item_list.txt'
-item_list_file = 'resources.txt'
+static_item_list = './resources/item_lists/commonly_missed_items.txt'
 mouse = Controller()
 keyboard = pynput.keyboard.Controller()
-debug_screenshot_counter = 0
 sleep_time_before_clicking_subcategory = 4
 sleep_time_after_clicking_resource_subcategory = 4
-# DEBUG = False
-# DEBUG_LIST = False
-DEBUG_CLICKS = True
-DEBUG_PAGE_SENSE = True
+
+# Skip variables
+SKIP_ALL_RESOURCES = True
+SKIP_RAW_RESOURCES = True
+SKIP_REFINED_RESOURCES = True
+SKIP_COOKING_INGREDIENTS = True
+SKIP_CRAFT_MODS = True
+SKIP_COMPONENTS = True
+SKIP_POTION_REAGENTS = True
+SKIP_DYES = True
+SKIP_AZOTH = True
+SKIP_ARCANA = True
+
+SKIP_CONSUMABLES = False
+SKIP_AMMO = False
+SKIP_FURNITURE = False
+SKIP_LIST = True
+
+# Debug variables
+debug_screenshot_counter = 0
+debug_folder_name = 'debug_screenshots_%s' % folder_timestamp
+debug_clicks_folder_name = 'debug_clicks_%s' % folder_timestamp
+DEBUG_AFK_RESETTER = False
+DEBUG_LIST = False
+DEBUG_CLICKS = False
+DEBUG_PAGE_SENSE = False
 DEBUG_NEXT_TP_PAGE = False
 DEBUG_TP_WINDOW_DOWN = False
 DEBUG_LIMIT_PAGES = False
-# DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
-# if DEBUG:
-#     afk_time = 1
-# else:
-#     afk_time = 18
+DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
+if DEBUG_AFK_RESETTER:
+    afk_time = 1
+else:
+    afk_time = 18
 
 
 def focus_on_new_world():
@@ -101,8 +119,6 @@ def crop_total_page_number_from_clip(image):
 
 
 def get_pages():
-
-
     image = get_screen_shot()
     left = 1686
     top = 237
@@ -128,7 +144,8 @@ def get_pages():
         if got_a_number:
             break
         if got_a_number_counter == 10:
-            exit(1)
+            # just assume 200 pages if we can't parse a page number... temp workaround until I learn how to clean image clips
+            pages = 200
 
     #TODO  sometimes pytesseract mistakes 1xx for 4xx, this is a temporary workaround
     if 400 < pages < 499:
@@ -149,7 +166,7 @@ def prepare():
     debug_save_image("prepared")
 
 
-def capture_screen_by_screen(page, commodity_type):
+def screen_cap_scroll_down_screen_cap(page, commodity_type):
     focus_on_new_world()
     img = get_screen_shot()
     img.save("%s/%s%i.png" % (new_dir, commodity_type, page))
@@ -271,7 +288,7 @@ def next_tp_page():
 
 
 def get_static_list_of_items():
-    with open(item_list_file) as file:
+    with open(static_item_list) as file:
         lines = file.readlines()
         lines = [line.rstrip() for line in lines]
         return lines
@@ -347,31 +364,31 @@ def click_on_arcana():
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
-# def click_on_item_in_search_box(_item_name):
-#     focus_on_new_world()
-#     pyautogui.click(2106, 373)
-#     time.sleep(0.2)
-#     pyautogui.click(2106, 373)
-#     print("Clicked on %s in search bar (maybe)" % _item_name)
-#     time.sleep(1)
-#     debug_save_image("clicked on item in search box")
-#
-#
-# def click_on_search_box():
-#     focus_on_new_world()
-#     pyautogui.click(2077, 246)
-#     time.sleep(0.2)
-#     pyautogui.click(2077, 246)
-#     print("clicked on Search bar")
-#     debug_save_image("clicked on search box")
-#
-#
-# def type_in_search_box(_item_name):
-#     for letter in _item_name:
-#         keyboard.press(letter)
-#         time.sleep(0.05)
-#     keyboard.press(Key.enter)
-#     debug_save_image("Presed enter in search box")
+def click_on_item_in_search_box(_item_name):
+    focus_on_new_world()
+    pyautogui.click(2106, 373)
+    time.sleep(0.2)
+    pyautogui.click(2106, 373)
+    print("Clicked on %s in search bar (maybe)" % _item_name)
+    time.sleep(1)
+    debug_save_image("clicked on item in search box")
+
+
+def click_on_search_box():
+    focus_on_new_world()
+    pyautogui.click(2077, 246)
+    time.sleep(0.2)
+    pyautogui.click(2077, 246)
+    print("clicked on Search bar")
+    debug_save_image("clicked on search box")
+
+
+def type_in_search_box(_item_name):
+    for letter in _item_name:
+        keyboard.press(letter)
+        time.sleep(0.05)
+    keyboard.press(Key.enter)
+    debug_save_image("Presed enter in search box")
 
 
 if __name__ == '__main__':
@@ -395,230 +412,266 @@ if __name__ == '__main__':
     focus_on_new_world()
     prepare()
 
+    if not SKIP_ALL_RESOURCES:
+        if not SKIP_RAW_RESOURCES:
+            # Get resource prices per subcategory
+            click_on_resources()
 
+            click_on_raw_resource()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_raw_resource()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'raw_resources')
 
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Raw Resources")
 
+        if not SKIP_REFINED_RESOURCES:
+            # Get resource prices per subcategory
+            click_on_resources()
 
+            click_on_refined_resource()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_refined_resource()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'refined_resources')
 
-    # # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_raw_resource()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_raw_resource()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'raw_resources')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Refined Resources")
 
-    # # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_refined_resource()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_refined_resource()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'refined_resources')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
-    #
-    # # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_cooking_ingredients()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_cooking_ingredients()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'cooking_ingredients')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
-    #
-    # # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_craft_mods()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_craft_mods()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'craft_mods')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
-    #
-    # # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_components()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_components()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'components')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
-    #
-    # Get resource prices per subcategory
-    # click_on_resources()
-    #
-    # click_on_potion_reagents()
-    # category_pages = get_pages()
-    # while category_pages[-1] == 499:
-    #     click_on_resources()
-    #     click_on_potion_reagents()
-    #     category_pages = get_pages()
-    # for page in category_pages:
-    #     capture_screen_by_screen(page, 'potion_reagents')
-    #
-    # # anti-AFK
-    # reset_afk_timer()
-    # time.sleep(2)
+        if not SKIP_COOKING_INGREDIENTS:
+            # Get resource prices per subcategory
+            click_on_resources()
 
-    # Get resource prices per subcategory
-    click_on_resources()
+            click_on_cooking_ingredients()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_cooking_ingredients()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'cooking_ingredients')
 
-    click_on_dyes()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
-        click_on_resources()
-        click_on_dyes()
-        category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'dyes')
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Cooking Ingredients")
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        if not SKIP_CRAFT_MODS:
+            # Get resource prices per subcategory
+            click_on_resources()
 
-    # Get resource prices per subcategory
-    click_on_resources()
+            click_on_craft_mods()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_craft_mods()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'craft_mods')
 
-    click_on_azoth()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
-        click_on_resources()
-        click_on_azoth()
-        category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'azoth')
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Craft Mods")
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        if not SKIP_COMPONENTS:
+            # Get resource prices per subcategory
+            click_on_resources()
 
-    # Get resource prices per subcategory
-    click_on_resources()
+            click_on_components()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_components()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'components')
 
-    click_on_arcana()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
-        click_on_resources()
-        click_on_arcana()
-        category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'arcana')
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Components")
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        if not SKIP_POTION_REAGENTS:
+            # Get resource prices per subcategory
+            click_on_resources()
 
-    # Get consumable prices
-    click_on_consumables_category()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
+            click_on_potion_reagents()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_potion_reagents()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'potion_reagents')
+
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Potion Reagents")
+
+        if not SKIP_DYES:
+            # Get resource prices per subcategory
+            click_on_resources()
+
+            click_on_dyes()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_dyes()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'dyes')
+
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Dyes")
+
+        if not SKIP_AZOTH:
+            # Get resource prices per subcategory
+            click_on_resources()
+
+            click_on_azoth()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_azoth()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'azoth')
+
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Azoth")
+
+        if not SKIP_ARCANA:
+            # Get resource prices per subcategory
+            click_on_resources()
+
+            click_on_arcana()
+            category_pages = get_pages()
+            while category_pages[-1] == 499:
+                click_on_resources()
+                click_on_arcana()
+                category_pages = get_pages()
+            for page in category_pages:
+                screen_cap_scroll_down_screen_cap(page, 'arcana')
+
+            # anti-AFK
+            reset_afk_timer()
+            time.sleep(2)
+        else:
+            print("Skipping Arcana")
+
+    if not SKIP_CONSUMABLES:
+        # Get consumable prices
         click_on_consumables_category()
         category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'consumables')
+        while category_pages[-1] == 499:
+            click_on_consumables_category()
+            category_pages = get_pages()
+        for page in category_pages:
+            screen_cap_scroll_down_screen_cap(page, 'consumables')
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        # anti-AFK
+        reset_afk_timer()
+        time.sleep(2)
+    else:
+        print("Skipping Consumables")
 
-    # Get ammo pages
-    click_on_ammo_category()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
+    if not SKIP_AMMO:
+        # Get ammo pages
         click_on_ammo_category()
         category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'ammo')
+        while category_pages[-1] == 499:
+            click_on_ammo_category()
+            category_pages = get_pages()
+        for page in category_pages:
+            screen_cap_scroll_down_screen_cap(page, 'ammo')
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        # anti-AFK
+        reset_afk_timer()
+        time.sleep(2)
+    else:
+        print("Skipping Ammo")
 
-    # Get furniture, get 100 pages
-    click_on_furniture_category()
-    category_pages = get_pages()
-    while category_pages[-1] == 499:
+    if not SKIP_FURNITURE:
+        # Get furniture
         click_on_furniture_category()
         category_pages = get_pages()
-    for page in category_pages:
-        capture_screen_by_screen(page, 'furniture')
+        while category_pages[-1] == 499:
+            click_on_furniture_category()
+            category_pages = get_pages()
+        for page in category_pages:
+            screen_cap_scroll_down_screen_cap(page, 'furniture')
 
-    # anti-AFK
-    reset_afk_timer()
-    time.sleep(2)
+        # anti-AFK
+        reset_afk_timer()
+        time.sleep(2)
+    else:
+        print("Skipping Furniture")
 
-    # # The following loop will get straggling items that must be put in a list
-    # now = datetime.datetime.now()
-    # next_afk_time = now + datetime.timedelta(minutes=afk_time)
-    # if DEBUG_LIST:
-    #     first_index = static_item_list.index(DEBUG_LIST_FIRST_ITEM)
-    #     static_item_list = static_item_list[first_index:]
-    # static_item_list.index(DEBUG_LIST_FIRST_ITEM)
-    # for item_name in static_item_list:
-    #     if DEBUG:
-    #         if counter >= 40:
-    #             exit(0)
-    #     counter += 1
-    #
-    #     now = datetime.datetime.now()
-    #     if now > next_afk_time:
-    #         reset_afk_timer()
-    #         time.sleep(2)
-    #         # reset_afk_timer()
-    #         # time.sleep(2)
-    #         now = datetime.datetime.now()
-    #         next_afk_time = now + datetime.timedelta(minutes=afk_time)
-    #
-    #     click_on_search_box()
-    #
-    #     type_in_search_box(item_name)
-    #
-    #     img = get_screen_shot()
-    #     print("Saving debug screenshot %s..." % item_name)
-    #     img.save("%s/%s.png" % (debug_dir, item_name))
-    #     print("Done saving debug screenshot for %s" % item_name)
-    #
-    #     click_on_item_in_search_box(item_name)
-    #
-    #     get_screen_shot()
-    #
-    #     img = get_screen_shot()
-    #     print("Saving screenshot %s ..." % item_name)
-    #     img.save("%s/%s.png" % (new_dir, item_name))
-    #     print("Done saving screenshot %s" % (item_name))
+    if not SKIP_LIST:
+        # # The following code will get straggling items that must be put in a list
+        now = datetime.datetime.now()
+        next_afk_time = now + datetime.timedelta(minutes=afk_time)
+        if DEBUG_LIST:
+            first_index = static_item_list.index(DEBUG_LIST_FIRST_ITEM)
+            static_item_list = static_item_list[first_index:]
+        static_item_list.index(DEBUG_LIST_FIRST_ITEM)
+        counter = 0
+        for item_name in static_item_list:
+            if DEBUG_AFK_RESETTER:
+                if counter >= 40:
+                    exit(0)
+            counter += 1
+
+            now = datetime.datetime.now()
+            if now > next_afk_time:
+                reset_afk_timer()
+                time.sleep(2)
+                # reset_afk_timer()
+                # time.sleep(2)
+                now = datetime.datetime.now()
+                next_afk_time = now + datetime.timedelta(minutes=afk_time)
+
+            click_on_search_box()
+
+            type_in_search_box(item_name)
+
+            img = get_screen_shot()
+            print("Saving debug screenshot %s..." % item_name)
+            img.save("%s/%s.png" % (debug_dir, item_name))
+            print("Done saving debug screenshot for %s" % item_name)
+
+            click_on_item_in_search_box(item_name)
+
+            get_screen_shot()
+
+            img = get_screen_shot()
+            print("Saving screenshot %s ..." % item_name)
+            img.save("%s/%s.png" % (new_dir, item_name))
+            print("Done saving screenshot %s" % (item_name))
+    else:
+        print("Skipping Static List")
