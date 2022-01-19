@@ -5,21 +5,21 @@ High level steps are:
    1. You will automatically crouch, open the TP and start clicking around. 
    2. Screenshots will be taken and stored in ./output/market_screenshotsXXX. 
    3. Every so often, you will disengage from the TP, walk back a bit, walk forward a bit and reengage with the TP. This is the anti-afk functionality. 
-4. Run those screenshots through the Parser in a big batch
+3. Run those screenshots through the Parser in a big batch
    1. Run the third party tool `resources/Parser.0.1.9/Parser.exe`.
    2. Select all of the combined screenshots.
    3. Select export and save the file as ./output/file.json
-5. Convert the JSON output of the Parser to CSV to easily plug data into the OHG Market Tracker DATA tab
+4. Convert the JSON output of the Parser to a bunch of lists to easily plug data into the OHG Market Tracker DATA tab. Specifically, use market_gsheet or market_gsheet_prices only.
    1. Run `market_json_to_csv.py` on the file output by the parser
-   2. You will see a new file called marketXXX.csv
-6. Copy and paste the output CSV output (file) of `market_json_to_csv.py` into the DATA tab of the OHG Market Tracker spreadsheet
+   2. You will see some new files called `market_gsheetXXX.csv` and `market_gsheet_prices_onlyXXX.csv`.
+5. Copy and paste the output CSV output (file) of `market_gsheetXXX.csv` into the DATA tab of the OHG Market Tracker spreadsheet
+   1. In the future, we will keep a history of prices. That's what the market_gsheet_prices_only list is for. It's a list of prices that will always be in the same order. We can just copy and paste the data from that sheet into the next column of our gsheet once we setup history there.
 
 # Integration with NW profession cost calculator
 It seems like you can go to this page:
 https://gaming.tools/newworld/price-customization?profession=arcana
 
 Scroll to the bottom, and you will see that you can importa JSON file. The JSON output from the parser seems to be what this is expecting. Unfortunately you'll get some whacky results in that JSON, so do this at your own risk. I will create another utility that will do a sanity check on the JSON and strip out whacky results for better integration with this page.
-
 
 
 ## Requirements
