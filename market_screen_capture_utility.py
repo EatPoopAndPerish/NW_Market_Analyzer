@@ -24,9 +24,9 @@ sleep_time_before_clicking_subcategory = 4
 sleep_time_after_clicking_resource_subcategory = 4
 
 # Skip variables
-SKIP_ALL_RESOURCES = False
-SKIP_RAW_RESOURCES = True
-SKIP_REFINED_RESOURCES = True
+SKIP_ALL_RESOURCES = True
+SKIP_RAW_RESOURCES = False
+SKIP_REFINED_RESOURCES = False
 SKIP_COOKING_INGREDIENTS = False
 SKIP_CRAFT_MODS = False
 SKIP_COMPONENTS = False
@@ -35,23 +35,23 @@ SKIP_DYES = False
 SKIP_AZOTH = False
 SKIP_ARCANA = False
 
-SKIP_CONSUMABLES = False
-SKIP_AMMO = False
-SKIP_FURNITURE = False
-SKIP_LIST = True
+SKIP_CONSUMABLES = True
+SKIP_AMMO = True
+SKIP_FURNITURE = True
+SKIP_LIST = False
 
 # Debug variables
 debug_screenshot_counter = 0
 debug_folder_name = 'debug_screenshots_%s' % folder_timestamp
 debug_clicks_folder_name = 'debug_clicks_%s' % folder_timestamp
 DEBUG_AFK_RESETTER = False
-DEBUG_LIST = False
-DEBUG_CLICKS = False
+DEBUG_LIST = True
+DEBUG_CLICKS = True
 DEBUG_PAGE_SENSE = False
 DEBUG_NEXT_TP_PAGE = False
 DEBUG_TP_WINDOW_DOWN = False
 DEBUG_LIMIT_PAGES = False
-DEBUG_LIST_FIRST_ITEM = "Dried Dryad Sap"
+DEBUG_LIST_FIRST_ITEM = "Draught of Corrupted Essence"
 if DEBUG_AFK_RESETTER:
     afk_time = 1
 else:
@@ -214,6 +214,7 @@ def click_coords(x, y, message="", subcategory=False):
 def find_buy_icon():
     # pick 3 pixels in the buy icon
     # take screen shot
+    # TODO This doesn't really work :(
     pixel1 = (205, 170)
     pixel2 = (204, 175)
     pixel3 = (207, 175)
@@ -268,13 +269,18 @@ def reset_afk_timer():
     time.sleep(0.5)
     found_buy_icon = find_buy_icon()
     # Seems like sometimes we need  to hit the e button again :(
+    counter = 0
     while not found_buy_icon:
+        # best effort workaround. If We're not in the TP at this point, we're fucked :(
+        if counter > 4:
+            break
         pyautogui.keyDown('w')
         time.sleep(0.5)
         pyautogui.keyUp('w')
         time.sleep(0.25)
         pyautogui.press('e')
         found_buy_icon = find_buy_icon()
+        counter += 1
     time.sleep(1.25)
     print("Done resetting AFK timer")
     debug_save_image("reset afk timer")
@@ -646,10 +652,10 @@ if __name__ == '__main__':
         # # The following code will get straggling items that must be put in a list
         now = datetime.datetime.now()
         next_afk_time = now + datetime.timedelta(minutes=afk_time)
+        static_item_list = get_static_list_of_items()
         if DEBUG_LIST:
             first_index = static_item_list.index(DEBUG_LIST_FIRST_ITEM)
             static_item_list = static_item_list[first_index:]
-        static_item_list.index(DEBUG_LIST_FIRST_ITEM)
         counter = 0
         for item_name in static_item_list:
             if DEBUG_AFK_RESETTER:
