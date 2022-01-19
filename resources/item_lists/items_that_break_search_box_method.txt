@@ -15,3 +15,10 @@ Captain Quiksilver's Lamp, Original
 Captain's Bath
 Schematic: Captain Quicksilver's Lamp, Silver Replica
 Draught of Wyrdwood Sap
+Cool Iron Chandelier - Bright
+Cool Iron Chandelier - Dim
+Cool Iron Lantern - Bright
+Cool Iron Lantern - Dim
+Cool Iron Sconce - Bright
+Cool Iron Sconce - Dim
+Eight-tasseled Hanging Lantern

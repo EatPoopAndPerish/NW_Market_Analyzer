@@ -299,12 +299,6 @@ Common Regeneration Potion
 Common Transmutation Catalyst
 Cooked Corn
 Cooking Oil
-Cool Iron Chandelier - Bright
-Cool Iron Chandelier - Dim
-Cool Iron Lantern - Bright
-Cool Iron Lantern - Dim
-Cool Iron Sconce - Bright
-Cool Iron Sconce - Dim
 Cool Violet Dye
 Copper Dye
 Copper Water Pump
@@ -475,7 +469,6 @@ EbonyCircular Curio Shelf
 Ectoplasmic Essence
 Egede Serpe
 Egg
-Eight-tasseled Hanging Lantern
 Elderberry Dye
 Electric Eel Bait
 Ember Stone
