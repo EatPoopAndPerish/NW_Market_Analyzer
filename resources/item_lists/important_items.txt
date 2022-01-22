@@ -1,0 +1,111 @@
+Adamantine Dust
+Ancient Femur
+Ancient Mandible
+Ancient Skull
+Ancient Texts
+Armorer's Journal
+Asmodeum Band
+Asmodeum Chain
+Asmodeum Hook
+Asmodeum Setting
+Barkflesh
+Basic Ancients Combat Trophy
+Basic Angry Earth Combat Trophy
+Basic Arcana Crafting Trophy
+Basic Armoring Crafting Trophy
+Basic Cooking Crafting Trophy
+Basic Corrupted Combat Trophy
+Basic Engineering Crafting Trophy
+Basic Fishing Gathering Trophy
+Basic Harvesting Gathering Trophy
+Basic Logging Gathering Trophy
+Basic Loot Luck Trophy
+Basic Lost Combat Trophy
+Basic Mining Gathering Trophy
+Basic Skinning Gathering Trophy
+Basic Weaponsmithing Crafting Trophy
+Basic Wildlife Combat Trophy
+basil
+Chef's Secret Cookbook
+Chef's Secret Techniques
+Common Alkahest
+Corrupted Crest
+Corrupted Totem
+Dummy Frame
+Earthspine Leaf
+Ectoplasmic Essence
+Ember Stone
+Engineer's Technique Manual
+Ephemeral Seal
+Fluffy Stuffing
+Forgemaster's Notes
+Glowing Sap
+Gold Chain
+Hope Storage Chest
+Infused Alkahest
+Journal of Aeternum Flora
+Loaded Dice
+Lumberjack's Token
+Major Ancients Combat Trophy
+Major Angry Earth Combat Trophy
+Major Arcana Crafting Trophy
+Major Armoring Crafting Trophy
+Major Cooking Crafting Trophy
+Major Corrupted Combat Trophy
+Major Engineering Crafting Trophy
+Major Fishing Gathering Trophy
+Major Harvesting Gathering Trophy
+Major Logging Gathering Trophy
+Major Loot Luck Trophy
+Major Lost Combat Trophy
+Major Mining Gathering Trophy
+Major Skinning Gathering Trophy
+Major Weaponsmithing Crafting Trophy
+Major Wildlife Combat Trophy
+Mercurial Token
+Minor Ancients Combat Trophy
+Minor Angry Earth Combat Trophy
+Minor Arcana Crafting Trophy
+Minor Armoring Crafting Trophy
+Minor Cooking Crafting Trophy
+Minor Corrupted Combat Trophy
+Minor Engineering Crafting Trophy
+Minor Fishing Gathering Trophy
+Minor Harvesting Gathering Trophy
+Minor Logging Gathering Trophy
+Minor Loot Luck Trophy
+Minor Lost Combat Trophy
+Minor Mining Gathering Trophy
+Minor Skinning Gathering Trophy
+Minor Weaponsmithing Crafting Trophy
+Minor Wildlife Combat Trophy
+Notes on Aeternum Fauna
+Orichalcum Band
+Orichalcum Chain
+Orichalcum Hook
+Orichalcum Setting
+Philosopher's Stone
+Platinum Band
+Platinum Chain
+Platinum Hook
+Platinum Setting
+Powerful Alkahest
+Precision Armoring Tools
+Precision Engineering Tools
+Pristine Bear Claw
+Pristine Bear Pelt
+Pristine Wolf Claw
+Pure Resin
+Quartermaster's Notes
+Rabbit's Foot
+Sporebloom Fruit
+Stacked Deck
+Strong Alkahest
+Surveyor's Tools
+tannin
+Tracker's Seal
+Tubecap
+Void Essence
+Void Ore
+Voidbent Ingot
+Weak Alkahest

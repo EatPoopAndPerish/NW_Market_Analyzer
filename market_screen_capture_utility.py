@@ -17,7 +17,7 @@ from PIL import ImageEnhance
 # Scaffolding Variables
 folder_timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
 output_folder_name = 'market_screenshots_%s' % folder_timestamp
-static_item_list = './resources/item_lists/commonly_missed_items.txt'
+static_item_list = './resources/item_lists/important_items.txt'
 mouse = Controller()
 keyboard = pynput.keyboard.Controller()
 sleep_time_before_clicking_subcategory = 4
@@ -51,7 +51,7 @@ DEBUG_PAGE_SENSE = False
 DEBUG_NEXT_TP_PAGE = False
 DEBUG_TP_WINDOW_DOWN = False
 DEBUG_LIMIT_PAGES = False
-DEBUG_LIST_FIRST_ITEM = "Draught of Corrupted Essence"
+DEBUG_LIST_FIRST_ITEM = "Basic Fishing Gathering Trophy"
 if DEBUG_AFK_RESETTER:
     afk_time = 1
 else:
