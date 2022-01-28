@@ -22,6 +22,7 @@ mouse = Controller()
 keyboard = pynput.keyboard.Controller()
 sleep_time_before_clicking_subcategory = 4
 sleep_time_after_clicking_resource_subcategory = 4
+page_sense_iterator = 0 # dirty hack workaround...
 
 # Skip variables
 SKIP_ALL_RESOURCES = True
@@ -41,17 +42,17 @@ SKIP_FURNITURE = True
 SKIP_LIST = False
 
 # Debug variables
-debug_screenshot_counter = 0
+debug_screenshot_counter = 0 # dirty hack workaround
 debug_folder_name = 'debug_screenshots_%s' % folder_timestamp
 debug_clicks_folder_name = 'debug_clicks_%s' % folder_timestamp
 DEBUG_AFK_RESETTER = False
-DEBUG_LIST = True
-DEBUG_CLICKS = True
+DEBUG_LIST = False
+DEBUG_CLICKS = False
 DEBUG_PAGE_SENSE = False
 DEBUG_NEXT_TP_PAGE = False
 DEBUG_TP_WINDOW_DOWN = False
 DEBUG_LIMIT_PAGES = False
-DEBUG_LIST_FIRST_ITEM = "Basic Fishing Gathering Trophy"
+DEBUG_LIST_FIRST_ITEM = "Corrupted Lodestone"
 if DEBUG_AFK_RESETTER:
     afk_time = 1
 else:
@@ -86,7 +87,7 @@ def get_screen_shot():
 
 
 def debug_save_image(description):
-    global  debug_screenshot_counter
+    global debug_screenshot_counter
     if DEBUG_CLICKS:
         img = get_screen_shot()
         description = description.replace(" ", "_")
@@ -122,44 +123,71 @@ def crop_total_page_number_from_clip(image):
     temp_image = cv2.convertScaleAbs(opencvImage, alpha=3, beta=0)
     candidate2 = Image.fromarray(temp_image)
     if DEBUG_PAGE_SENSE:
+        global page_sense_iterator
+        base_dir = 'output/'
+        new_dir = '%s/%s' % (base_dir, 'pages')
+        dir_exists = os.path.exists(new_dir)
+
+        # Creating directories
+        if not dir_exists:
+            os.mkdir(new_dir)
         # candidate1.show()
-        candidate2.show()
+        # candidate2.show()
+        candidate2.save("%s/%s%i.png" % (new_dir, 'page_clips', page_sense_iterator))
+        page_sense_iterator += 1
     return candidate2
 
 
 def get_pages():
     image = get_screen_shot()
-    left = 1686
-    top = 237
-    right = 1790
-    bottom = 258
+
+    left = 1672
+    top = 208
+    right = left + 113
+    bottom = top + 34
 
     rough_cropped_image = image.crop((left, top, right, bottom))
 
     cropped_image = crop_total_page_number_from_clip(rough_cropped_image)
 
     custom_config = r'--oem 3 --psm 6 outputbase digits'
-    got_a_number = False
-    got_a_number_counter = 0
-    while not got_a_number:
-        try:
-            text = pytesseract.image_to_string(cropped_image, config=custom_config)
-            pages = int(text)
-            got_a_number = True
+    try:
+        text = pytesseract.image_to_string(cropped_image, config=custom_config)
+        pages = int(text)
 
-        except:
-            got_a_number_counter += 1
-            print("Failed to read a number")
-        if got_a_number:
-            break
-        if got_a_number_counter == 10:
-            # just assume 200 pages if we can't parse a page number... temp workaround until I learn how to clean image clips
-            pages = 200
+    except:
+        print("Failed to read a number")
+        # just assume 200 pages if we can't parse a page number... temp workaround until I learn how to clean image clips
+        if cropped_image.width < 23: # I think this is a safe way to detect 1 digit numbers? Haven't done the analysis yet.
+            print("Can't read the fucking number, but it feels like a 1 digit number, guessing 9... good luck ;)")
+            pages = 9
+        elif cropped_image.width < 32:
+            print("Can't read the fucking number, but it feels like a 2 digit number, guessing 99... good luck ;)")
+            pages = 99
+        else:
+            print("Can't read the fucking number, but it feels like a 3 digit number, guessing 210... good luck ;)")
+            pages = 210 # can't do much more than 200 at a time anyway because of the AFK timer
+
 
     #TODO  sometimes pytesseract mistakes 1xx for 4xx, this is a temporary workaround
     if 400 < pages < 499:
         pages = pages - 300
     print("Detected %i pages" % pages)
+
+    #TODO sometimes we just get huge numbers, let's repeate the detect image width method to get something more resonable:
+    if pages > 210:
+        print("Number too large or doesn't make sense, using the widthe detection method...")
+        print("Failed to read a number")
+        # just assume 200 pages if we can't parse a page number... temp workaround until I learn how to clean image clips
+        if cropped_image.width < 23: # I think this is a safe way to detect 1 digit numbers? Haven't done the analysis yet.
+            print("Can't read the fucking number, but it feels like a 1 digit number, guessing 9... good luck ;)")
+            pages = 9
+        elif cropped_image.width < 32:
+            print("Can't read the fucking number, but it feels like a 2 digit number, guessing 99... good luck ;)")
+            pages = 99
+        else:
+            print("Can't read the fucking number, but it feels like a 3 digit number, guessing 210... good luck ;)")
+            pages = 210 # can't do much more than 200 at a time anyway because of the AFK timer
 
     if DEBUG_LIMIT_PAGES:
         return range(2)
@@ -177,6 +205,7 @@ def prepare():
 
 def screen_cap_scroll_down_screen_cap(page, commodity_type, total_pages=0, current_page=0):
     focus_on_new_world()
+    total_pages += 1
     print("page %i / %i" % (current_page + 1, total_pages))
     img = get_screen_shot()
     img.save("%s/%s%i.png" % (new_dir, commodity_type, page))
@@ -212,9 +241,11 @@ def click_coords(x, y, message="", subcategory=False):
 
 
 def find_buy_icon():
+    # TODO SKIP THIS UNTIL A REFACOR, OR BETTER YET, FIND A BETTER DESIGN
+    return True
     # pick 3 pixels in the buy icon
     # take screen shot
-    # TODO This doesn't really work :(
+    #  This doesn't really work :(
     pixel1 = (205, 170)
     pixel2 = (204, 175)
     pixel3 = (207, 175)
@@ -287,16 +318,16 @@ def reset_afk_timer():
 
 
 def scroll_tp_window_down():
-    pyautogui.click(3760, 1031)
+    pyautogui.click(1841, 1011)
     time.sleep(2)
-    pyautogui.click(3760, 1031)
+    pyautogui.click(1841, 1011)
     print("Scrolled TP windows down")
     if DEBUG_TP_WINDOW_DOWN:
         debug_save_image("scrolled_tp_window_down")
 
 
 def next_tp_page():
-    pyautogui.click(3717, 252)
+    pyautogui.click(1800, 225)
     time.sleep(0.5)
     print("next_tp_page")
     if DEBUG_NEXT_TP_PAGE:
@@ -310,81 +341,94 @@ def get_static_list_of_items():
         return lines
 
 
+# def calculate_x_coord(coord):
+#     if FULL_SCREEN_MODE:
+#         return coord - 1920
+#     else:
+#         return coord - 1920
+#
+# def calculate_y_coord(coord):
+#     if FULL_SCREEN_MODE:
+#         return coord - 25
+#     else:
+#         return coord
+
+
 def click_on_consumables_category():
-    click_coords(2042, 673, 'click_on_consumables_category' )
+    click_coords(123, 670, 'click_on_consumables_category' )
 
 
 def click_on_ammo_category():
-    click_coords(2042, 744, 'click_on_ammo_category')
+    click_coords(123, 740, 'click_on_ammo_category')
 
 
 def click_on_furniture_category():
-    click_coords(2042, 811, 'click_on_furniture_category')
+    click_coords(123, 814, 'click_on_furniture_category')
 
 
 def click_on_resources():
-    click_coords(2042, 605, 'click_on_resources')
+    click_coords(123, 592, 'click_on_resources')
 
 
 def click_on_raw_resource():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 386, 'click_on_raw_resource', subcategory=True)
+    click_coords(212, 370, 'click_on_raw_resource', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_refined_resource():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 438, 'click_on_refined_resource', subcategory=True)
+    click_coords(212, 424, 'click_on_refined_resource', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_cooking_ingredients():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 488, 'click_on_cooking_ingredients', subcategory=True)
+    click_coords(212, 479, 'click_on_cooking_ingredients', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_craft_mods():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2155, 545, 'click_on_craft_mods', subcategory=True)
+    click_coords(212, 530, 'click_on_craft_mods', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_components():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 600, 'click_on_components', subcategory=True)
+    click_coords(212, 585, 'click_on_components', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_potion_reagents():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 643, 'click_on_potion_reagents', subcategory=True)
+    click_coords(212, 639, 'click_on_potion_reagents', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_dyes():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 698, 'click_on_dyes', subcategory=True)
+    click_coords(212, 695, 'click_on_dyes', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_azoth():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 749, 'click_on_azoth', subcategory=True)
+    click_coords(212, 748, 'click_on_azoth', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_arcana():
     time.sleep(sleep_time_before_clicking_subcategory)
-    click_coords(2165, 802, 'click_on_arcana', subcategory=True)
+    click_coords(212, 802, 'click_on_arcana', subcategory=True)
     time.sleep(sleep_time_after_clicking_resource_subcategory)
 
 
 def click_on_item_in_search_box(_item_name):
     focus_on_new_world()
-    pyautogui.click(2106, 373)
+    pyautogui.click(192, 354)
     time.sleep(0.2)
-    pyautogui.click(2106, 373)
+    pyautogui.click(192, 354)
     print("Clicked on %s in search bar (maybe)" % _item_name)
     time.sleep(1)
     debug_save_image("clicked on item in search box")
@@ -392,9 +436,9 @@ def click_on_item_in_search_box(_item_name):
 
 def click_on_search_box():
     focus_on_new_world()
-    pyautogui.click(2077, 246)
+    pyautogui.click(250, 226)
     time.sleep(0.2)
-    pyautogui.click(2077, 246)
+    pyautogui.click(250, 226)
     print("clicked on Search bar")
     debug_save_image("clicked on search box")
 

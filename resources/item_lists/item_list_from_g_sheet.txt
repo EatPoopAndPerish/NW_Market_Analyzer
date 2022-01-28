@@ -2119,3 +2119,7 @@ Wyrdwood Tree Sap
 Yeast
 Yellow Pigment
 Young Dryad Vine
+Corrupted Lodestone
+Asmodeum Chisel
+Runestone
+Powerful Gemstone Dust

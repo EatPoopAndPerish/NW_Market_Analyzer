@@ -109,3 +109,7 @@ Void Essence
 Void Ore
 Voidbent Ingot
 Weak Alkahest
+Corrupted Lodestone
+Asmodeum Chisel
+Runestone
+Powerful Gemstone Dust
